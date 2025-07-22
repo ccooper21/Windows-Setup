@@ -1,0 +1,42 @@
+---
+software:
+
+  # Documentation
+  - name: Logitech G203 Lightsync Mouse - Setup Guide r20200417
+    category: Hardware|Logitech Keyboards and Mice
+    packages:
+      - url: https://www.logitech.com/assets/66171/g102--g203-lightsync-web-qsg.pdf
+        sha256: 4e384d5774e474348eea2ca7a829b1537af18f7da1c66ed3aeba734fe0fa752a
+
+  - name: Logitech G305 Lightspeed Wireless Mouse - Setup Guide r20200422
+    category: Hardware|Logitech Keyboards and Mice
+    packages:
+      - url: https://www.logitech.com/assets/65904/logitech-g305-qsg.pdf
+        sha256: 4cdeb62e4dc51bcfd7589b466c36a0a1e1cbc4580063eeabd69c760061dd4c7c
+
+  - name: Logitech G502 Hero Mouse - Setup Guide r20180525
+    category: Hardware|Logitech Keyboards and Mice
+    packages:
+      - url: https://www.logitech.com/assets/65517/g502-hero.pdf
+        sha256: 5ef35a93219d80c871a19f869421a86380dce122c10cc45e8a3ceba997280ed0
+
+  - name: Logitech G815 Lightsync Keyboard - Setup Guide r20190502
+    category: Hardware|Logitech Keyboards and Mice
+    packages:
+      - url: https://www.logitech.com/assets/65841/g815-lightsync-rgb-mechanical-gaming-keyboard.pdf
+        sha256: cb212b7830eab9a774a7fecede18ad1650f48d139dad0e4dff217ddf663c156c
+
+
+
+  # Drivers and Utilities
+  - name: Logitech G HUB v2025.5.730277 [Rolling]
+    category: Hardware|Logitech Keyboards and Mice
+    packages:
+      - url: https://download01.logi.com/web/ftp/pub/techsupport/gaming/lghub_installer.exe
+        sha256: cc550dff570e0b7a8fc36e71466709cf57b65ac289b9ad92377fb0e5e617ff3e
+
+  - name: Logitech Options+ v1.92.731496 [Rolling]
+    category: Hardware|Logitech Keyboards and Mice
+    packages:
+      - url: https://download01.logi.com/web/ftp/pub/techsupport/optionsplus/logioptionsplus_installer.exe
+        sha256: ced5fe8f9cae1df4a49b4a15301ec047accd7763ecafa8265ca7e5035fd34dea

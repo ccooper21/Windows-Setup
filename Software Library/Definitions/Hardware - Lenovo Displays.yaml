@@ -1,0 +1,38 @@
+---
+software:
+
+  # Documentation
+  - name: Lenovo M14 Gen 1 Display - Quick Start Guide r20190808
+    category: Hardware|Lenovo Displays
+    packages:
+      - url: https://download.lenovo.com/consumer/monitor/m14_qsg_190618.pdf
+        sha256: 0d6273a1520e72da4aa9cf1d996f8590aa6481f0736ac6f1e176a4c84e019c1b
+
+  - name: Lenovo M14 Gen 1 Display - User Guide r20190524
+    category: Hardware|Lenovo Displays
+    packages:
+      - url: https://download.lenovo.com/consumer/monitor/m14_ug_en_201905_version1.pdf
+        sha256: 6682629bbd78ab266a06b66d0db80972ee56988eab144fba451191420b478fcc
+
+  - name: Lenovo M14t Gen 2 Display - User Guide r20240506
+    category: Hardware|Lenovo Displays
+    packages:
+      - url: https://download.lenovo.com/consumer/monitor/thinkvision_m14t_gen2_english_user_guide_20240506.pdf
+        sha256: 54ec3710586e413432ee5f8bc4aa033ee02ed46faa5206c3c7d86a6b106f8ae7
+
+
+
+  # Drivers and Utilities
+  - name: Lenovo Accessories and Display Manager v1.0.7.08
+    category: Hardware|Lenovo Displays
+    packages:
+      - url: https://download.lenovo.com/consumer/monitor/lenovo_accessories_and_display_manager_v1_0_7_08_setup.exe
+        sha256: d0d906164866edc5853f9a8cd8d827113d984e4cda1731788d0951586d1d9688
+      - url: https://download.lenovo.com/consumer/monitor/lenovo_accessories_and_display_manager_release_notes.txt
+        sha256: b897ce006c9683c518249116fce98dc00fc0b4c31ec74f8884ae8fe2e9c2d95c
+
+  - name: Lenovo M14 Display - Drivers r20190416
+    category: Hardware|Lenovo Displays
+    packages:
+      - url: https://download.lenovo.com/consumer/monitor/m14_driver.zip
+        sha256: c7009bf944280847596e374f1398ae5236214792ec413f5bf26c8c8720934461

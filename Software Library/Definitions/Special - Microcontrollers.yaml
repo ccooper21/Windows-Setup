@@ -1,0 +1,8 @@
+---
+software:
+
+  - name: Arduino IDE v2.3.6
+    category: Special|Microcontrollers
+    packages:
+      - url: https://downloads.arduino.cc/arduino-ide/arduino-ide_2.3.6_Windows_64bit.exe
+        sha256: ad6d1c229d4d2f4fefa5155424bb02c0ea34591e56313f1dd0a04ae2ce43c5b7

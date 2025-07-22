@@ -1,0 +1,24 @@
+---
+software:
+
+  # Drivers and Utilities
+  - name: AMD Radeon HD Series Graphics Adrenalin Edition Drivers v22.6.1
+    category: Hardware|AMD Radeon Graphics
+    packages:
+      - url: https://drivers.amd.com/drivers/radeon-software-adrenalin-2020-22.6.1-win10-win11-64bit-legacyasics-june23-2022-legacy.exe
+        additional-curl-options: '--header ''Referer: https://www.amd.com/'''
+        sha256: 2743360b88ca42779140e2d1fca5d169a1f8b6173524570e4f0d7a5f73d924af
+
+  - name: AMD Radeon RX 500 Series Graphics Adrenalin Edition Drivers v25.5.1
+    category: Hardware|AMD Radeon Graphics
+    packages:
+      - url: https://drivers.amd.com/drivers/whql-amd-software-adrenalin-edition-25.5.1-win10-win11-may8-vega-polaris.exe
+        additional-curl-options: '--header ''Referer: https://www.amd.com/'''
+        sha256: 5d083659c5f2b4ac11986524e48d4339c3214b614decb68633cf7553add17e0c
+
+  - name: AMD Radeon RX 6000 Series Graphics Adrenalin Edition Drivers v25.6.1
+    category: Hardware|AMD Radeon Graphics
+    packages:
+      - url: https://drivers.amd.com/drivers/whql-amd-software-adrenalin-edition-25.6.1-win10-win11-june5-rdna.exe
+        additional-curl-options: '--header ''Referer: https://www.amd.com/'''
+        sha256: b7d6bf26289877dc180754068b1692a25f6d2b212178e34a765e08fc72a33b88

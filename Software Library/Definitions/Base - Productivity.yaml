@@ -1,0 +1,15 @@
+---
+software:
+
+  - name: CherryTree v1.5.0.0
+    category: Productivity
+    packages:
+      - url: https://www.giuspen.net/software/cherrytree_1.5.0.0_win64_setup.exe
+        sha256: 20e374c866973570fbb258289a2a6206b991e22417f2775d56b47d48e456a423
+
+  - name: Obsidian v1.8.10
+    category: Productivity
+    packages:
+      - url: https://github.com/obsidianmd/obsidian-releases/releases/download/v1.8.10/Obsidian-1.8.10.exe
+        allow-redirect: true
+        sha256: 1fae2688513ca33a7b85eef53dc433e056487ac94c7fe95e5d33aa38b4cf7bd4

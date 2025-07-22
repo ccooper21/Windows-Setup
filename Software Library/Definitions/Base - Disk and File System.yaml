@@ -1,0 +1,8 @@
+---
+software:
+
+  - name: Reflect Home Free v8.1.8595 [Rolling; Online]
+    category: Disk and File System
+    packages:
+      - url: https://updates.macrium.com/reflect/v8/ReflectDLHF.exe
+        sha256: 37c8d7f2350c336c8964895a6cfb5a07e3274bc11d6359fbd4e8dc19b3a11162

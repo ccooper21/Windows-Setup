@@ -1,0 +1,14 @@
+---
+software:
+
+  - name: Exact Audio Copy v1.8
+    category: Special|Audio CD Ripping
+    packages:
+      - url: https://www.exactaudiocopy.de/eac-1.8.exe
+        sha256: 205530cfbfdff82343858f38b0e709e586051fb8900ecd513d7992a3c1ef031b
+
+  - name: dBpoweramp Reference r20250714 [Rolling; Trial]
+    category: Special|Audio CD Ripping
+    packages:
+      - url: https://www.dbpoweramp.com/install/dBRefMusic-Trial.exe
+        sha256: 1384421859d27a4d12b83b6cdb602645de53a93a45475ac905e7906938a2f7de

@@ -1,0 +1,90 @@
+---
+software:
+
+  # Documentation
+  - name: NuPhy Air75 Keyboard - User Manual r20210913 [Rolling]
+    category: Hardware|NuPhy Keyboards
+    packages:
+      - url: https://cdn.shopify.com/s/files/1/0268/7297/1373/files/NuPhy_Air75_Quick_Guide.pdf
+        sha256: 585d008a19c9e641dcc2aeaf1f5ea39c120f0eb5ccbad1523322b31136d2ddf8
+
+  - name: NuPhy Air75 v2 Keyboard - User Manual r20231005 [Rolling]
+    category: Hardware|NuPhy Keyboards
+    packages:
+      - url: https://cdn.shopify.com/s/files/1/0268/7297/1373/files/NuPhy_Air75_V2_Quick_Guide.pdf
+        sha256: 332c33778ff2dcc28702e71cc91561becc41168a5c655554e35f4badc8027e73
+
+  - name: NuPhy Field75 Keyboard - User Manual r20230505 [Rolling]
+    category: Hardware|NuPhy Keyboards
+    packages:
+      - url: https://cdn.shopify.com/s/files/1/0268/7297/1373/files/NuPhy_Field75_Quick_Guide.pdf
+        sha256: ef2196d83c93652c11ff17f76416d036e748e3cd618aa62b6ddf6cd3d220a8ed
+
+  - name: NuPhy Halo75 v2 Keyboard - User Manual r20240414 [Rolling]
+    category: Hardware|NuPhy Keyboards
+    packages:
+      - url: https://cdn.shopify.com/s/files/1/0268/7297/1373/files/NuPhy_Halo75_V2_Quick_Guide.pdf
+        sha256: 5902d15881fa26335ffd728ab3b39f2ab499e61e47e5f85367c498c378056837
+
+
+
+  # Firmware
+  - name: NuPhy Air75 Keyboard - Firmware v1.0.3
+    category: Hardware|NuPhy Keyboards
+    packages:
+      - url: https://drive.usercontent.google.com/download?id=12Npw3K0FpYVFXKuMff7jC1ffC2gUNMn9&export=download&confirm=t
+        curl-options: --output 'Air75_r1.0_ansi_windows_firmware_v1.0.3.exe'
+        sha256: ea3395e322d660b49bda6f379cdd33bbc83d96e38ce57b869d43099efc26928e
+
+  - name: NuPhy Air75 v2 Keyboard - Dongle Firmware v2.1.5
+    category: Hardware|NuPhy Keyboards
+    packages:
+      - url: https://cdn.shopify.com/s/files/1/0268/7297/1373/files/dongle_52820_upgrade_v2.1.5.exe
+        sha256: fcd1b485a2e3c13f5f9859a1b372a8af1771e392773c42fd889ddbba832ce149
+
+  - name: NuPhy Air75 v2 Keyboard - QMK Firmware v2.1.5
+    category: Hardware|NuPhy Keyboards
+    packages:
+      - url: https://cdn.shopify.com/s/files/1/0268/7297/1373/files/QMK_firmware_nuphy_air75_v2_ansi_v2.1.5.bin
+        sha256: 691ec487c10457c2e1114e69cae30865de316a8c21985d1bcd8021f961b34930
+
+  - name: NuPhy Air75 v2 Keyboard - RF Firmware v2.1.5
+    category: Hardware|NuPhy Keyboards
+    packages:
+      - url: https://cdn.shopify.com/s/files/1/0268/7297/1373/files/NUPHY_RF_OTA_V2.1.5.zip
+        sha256: adbdb8ca232dc20e198878ff284ecad8e137de55fb40ecc7125ab29f71848850
+
+  - name: NuPhy Halo75 v2 Keyboard - Dongle Firmware v2.1.5
+    category: Hardware|NuPhy Keyboards
+    packages:
+      - url: https://cdn.shopify.com/s/files/1/0268/7297/1373/files/dongle_52820_upgrade_v2.1.5.exe
+        sha256: fcd1b485a2e3c13f5f9859a1b372a8af1771e392773c42fd889ddbba832ce149
+
+  - name: NuPhy Halo75 v2 Keyboard - QMK Firmware v2.1.5
+    category: Hardware|NuPhy Keyboards
+    packages:
+      - url: https://cdn.shopify.com/s/files/1/0268/7297/1373/files/QMK_firmware_nuphy_halo75_v2_ansi_v2.1.5.bin
+        sha256: 4393adb563b93051552af1161a9f3c460d549adea413e1dca3ab8a27505d61c0
+
+  - name: NuPhy Halo75 v2 Keyboard - RF Firmware v2.1.5
+    category: Hardware|NuPhy Keyboards
+    packages:
+      - url: https://cdn.shopify.com/s/files/1/0268/7297/1373/files/NUPHY_RF_OTA_V2.1.5.zip
+        sha256: adbdb8ca232dc20e198878ff284ecad8e137de55fb40ecc7125ab29f71848850
+
+
+
+  # Drivers and Utilities
+  - name: Field Console v1.0.1
+    category: Hardware|NuPhy Keyboards
+    packages:
+      - url: https://drive.usercontent.google.com/download?id=1H8VJJB6xqBfOk_HuHZRzrx7zDGzgkk0B&export=download&authuser=0&confirm=t
+        curl-options: --output 'Field Console Driver.exe'
+        sha256: 35c5fdb8d6a0f301aad5a4c3fc8d9165caea54d019284e36864a7acce4398b01
+
+  - name: NuPhy Console v1.0.3
+    category: Hardware|NuPhy Keyboards
+    packages:
+      - url: https://drive.usercontent.google.com/download?id=1CepGBVFMqPZEwybbnVH0ihoBoLZdGpgS&export=download&authuser=0&confirm=t
+        curl-options: --output 'NuPhy Console Setup V1.0.3.exe'
+        sha256: c81b4519c1bbc932322dd2819bf89f3ae4de5a1e9a82ba118e1b0591b2156c61

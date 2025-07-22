@@ -1,0 +1,58 @@
+---
+software:
+
+  # Documentation
+  - name: LG 32UN880 Display - Owners Manual r20240902
+    category: Hardware|LG Displays
+    packages:
+      - url: https://gscs-b2c.lge.com/downloadFile?fileId=T2DtlMup2KKmiHNX6WqpDA
+        curl-options: --remote-header-name --remote-name
+        sha256: 3fceb09c39f4ea21d10a87d4707518b4ad6c1db5d3454f460b382d1cae1990d9
+
+  - name: LG 32UN880 Display - Quick Guide r20200204
+    category: Hardware|LG Displays
+    packages:
+      - url: https://gscs-b2c.lge.com/downloadFile?fileId=KaXWjIJGGlq52oFP0IjJXw
+        curl-options: --remote-header-name --remote-name
+        sha256: 78bc9822b5609c6a4a6783c698345997278093d7fbff324d9955cb0112be0cb9
+
+  - name: LG 32UN880 Display - Software Guide r20180419
+    category: Hardware|LG Displays
+    packages:
+      - url: https://gscs-b2c.lge.com/downloadFile?fileId=zcDCuLjfpc3D7RFrgrmkFg
+        curl-options: --remote-header-name --remote-name
+        sha256: 045af4ceb6dd01ed2e6751c2e3433d122ac1e640822d4363de26bd6ef48eef2a
+
+
+
+  # Drivers and Utilities
+  - name: LG 32UN880 Display - Drivers r20230706
+    category: Hardware|LG Displays
+    packages:
+      - url: https://gscs-b2c.lge.com/downloadFile?fileId=dUi67lgviRCRB0zH3oj7jw
+        curl-options: --remote-header-name --remote-name
+        sha256: fdb702b88c02147cb3f550a763a73cb87f08cddaca36493b413befa01cac2f4e
+
+  - name: LG Calibration Studio v7.2.4
+    category: Hardware|LG Displays
+    packages:
+      - url: https://gscs-b2c.lge.com/downloadFile?fileId=qEQgwkpAbnGZ7aIVyyeXmA
+        curl-options: --remote-header-name --remote-name
+        sha256: 87a268dd150628896e47e347086c3b2e66871da76a19641cefbb130e066ac76d
+      - url: https://gscs-b2c.lge.com/downloadFile?fileId=5rJS7W6FkM2gqdcZzM8Zg
+        curl-options: --remote-header-name --remote-name
+        sha256: 7fa8aae8aa21c0995c44699c47b681091425ee6f19d83e8c6dcb4dfed65b1143
+
+  - name: LG Dual Controller v2.85
+    category: Hardware|LG Displays
+    packages:
+      - url: https://gscs-b2c.lge.com/downloadFile?fileId=TA8w6eqPXMozwPo365Ew
+        curl-options: --remote-header-name --remote-name
+        sha256: 517f781a98233ab27ad70fbfa320d4cf19678403f8aef8e9a159ecc79352226f
+
+  - name: LG On Screen Control v9.43
+    category: Hardware|LG Displays
+    packages:
+      - url: https://gscs-b2c.lge.com/downloadFile?fileId=S7IpfcRFqvMpDcnItdNsg
+        curl-options: --remote-header-name --remote-name
+        sha256: 29d8fb3ad5219305f27f43e9b49011466469eaf3b9809f8085708fbe4e3da659

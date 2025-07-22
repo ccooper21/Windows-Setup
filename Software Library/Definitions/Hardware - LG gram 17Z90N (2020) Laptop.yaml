@@ -1,0 +1,109 @@
+---
+software:
+
+  # Documentation
+  - name: LG gram 17Z90N (2020) Laptop - Owners Manual r20201117
+    category: Hardware|LG gram 17Z90N (2020) Laptop
+    packages:
+      - url: https://gscs-b2c.lge.com/downloadFile?fileId=RZMEZbY2w45EVlr9vtlA
+        curl-options: --remote-header-name --remote-name
+        sha256: 107d1bba1ec630d45b47622cb833f5af46953e3fff4163ac5d0900ec2586cb75
+
+
+
+  # Drivers and Utilities
+  - name: Conexant Audio Drivers v9.0.232.70
+    category: Hardware|LG gram 17Z90N (2020) Laptop
+    packages:
+      - url: https://catalog.s.download.windowsupdate.com/c/msdownload/update/driver/drvs/2020/12/db100a39-2382-462d-a29d-ccc296aed4bc_ce50832be607477fd13dccbf50010e4d4c6b5d43.cab
+        sha256: cae4ebde0214e6f9bba430d9cae24841316b2f3bce24b08cb6c093d253b30c36
+
+  - name: Intel 10th Gen Processor Graphics Drivers v31.0.101.2135
+    category: Hardware|LG gram 17Z90N (2020) Laptop
+    packages:
+      - url: https://downloadmirror.intel.com/850983/gfx_win_101.2135.exe
+        sha256: e3f8d4659789fa70b5bc2ae4a3c1ddcfdf0ae69ebb0b9ea0c88983d1990666ca
+
+  - name: Intel Bluetooth Drivers v23.140.0
+    category: Hardware|LG gram 17Z90N (2020) Laptop
+    packages:
+      - url: https://downloadmirror.intel.com/856701/BT-23.140.0-64UWD-Win10-Win11.exe
+        sha256: 186a1db1e183eec101d41765ba192c6602ef07562511c0cb1b88963e0ce5bd5f
+      - url: https://downloadmirror.intel.com/856701/ReleaseNotes_BT_23.140.0.pdf
+        sha256: 2f4106f109394bfa9cb4053da15946b7fe4da599bbc30f1438d87289a5587db5
+
+  - name: Intel Chipset INF Utility v10.1.20020.8623
+    category: Hardware|LG gram 17Z90N (2020) Laptop
+    packages:
+      - url: https://downloadmirror.intel.com/843223/SetupChipset.exe
+        sha256: 6cddeeafc32607ff914fd6038e475bf876e55804a9f759eca773e5ea144af481
+
+  - name: Intel Driver and Support Assistant v25.3.24.7 [Rolling]
+    category: Hardware|LG gram 17Z90N (2020) Laptop
+    packages:
+      - url: https://dsadata.intel.com/installer
+        curl-options: --output 'Intel-Driver-and-Support-Assistant-Installer.exe'
+        sha256: 39e8caf7d6e3f2dc312d62f3393df44b067c7ed2b7e32efd222fef3c9a54e170
+
+  - name: Intel Management Engine Drivers v2514.7.16.0
+    category: Hardware|LG gram 17Z90N (2020) Laptop
+    packages:
+      - url: https://downloadmirror.intel.com/853739/Intel_R_ME_SW_2514.7.16.0.zip
+        sha256: 7d782a841a68b39b9dfa2b45aab310b8ca7d84bb05dea2fde414789fc98002c5
+
+  - name: Intel Wireless Ethernet Drivers v23.140.0
+    category: Hardware|LG gram 17Z90N (2020) Laptop
+    packages:
+      - url: https://downloadmirror.intel.com/856917/WiFi-23.140.0-Driver64-Win10-Win11.exe
+        sha256: 7f2cd58b572a695b1f8039877dd20a7b768a418bc5294e86093cbcf586f12e9c
+      - url: https://downloadmirror.intel.com/856917/ReleaseNotes_WiFi_23.140.0.pdf
+        sha256: 2d34af2b760329a45821544690998aabaf029eb96da7071ee57b7db24153795d
+
+  - name: LG Airplane Mode Button Driver v1.0.1806.3001
+    category: Hardware|LG gram 17Z90N (2020) Laptop
+    packages:
+      - url: https://gscs-b2c.lge.com/downloadFile?fileId=uHYGwDuS6UHmAkjYmhCRw
+        curl-options: --remote-header-name --remote-name
+        sha256: 5114dbebe92881e67b8adfd7838161ed802a448774c6347d4b8c7fd3bd1410dc
+
+  - name: LG Device Manager v1.0.2001.1702
+    category: Hardware|LG gram 17Z90N (2020) Laptop
+    packages:
+      - url: https://gscs-b2c.lge.com/downloadFile?fileId=haZjPaEfN7CI15FhuYfEUQ
+        curl-options: --remote-header-name --remote-name
+        sha256: 8885ea088865cc392f16e6c7d669bbd0aa64ea7ee6be3b3be5329335746051a9
+
+  - name: LG Goodix Fingerprint Reader Drivers v3.1.100.320
+    category: Hardware|LG gram 17Z90N (2020) Laptop
+    packages:
+      - url: https://gscs-b2c.lge.com/downloadFile?fileId=ZvcwAEWgTINVLX1b4YhHw
+        curl-options: --remote-header-name --remote-name
+        sha256: df7e308a95d6b48f5e727a3ef05c0bbf812cb19eae36e2b6b013ad9d3701cad4
+
+  - name: LG Platform Manager v1.1.2004.602
+    category: Hardware|LG gram 17Z90N (2020) Laptop
+    packages:
+      - url: https://gscs-b2c.lge.com/downloadFile?fileId=YaifoRbCCos9NxqLM6OYEw
+        curl-options: --remote-header-name --remote-name
+        sha256: b18dccfe2e7a1958c7bd8697c270347a923ffe05c3108046e7420d49b5ed8a18
+
+  - name: LG Update v1.0.0.11
+    category: Hardware|LG gram 17Z90N (2020) Laptop
+    packages:
+      - url: https://gscs-b2c.lge.com/downloadFile?fileId=ZjRQg0TrHyCzDDcR8KSvA
+        curl-options: --remote-header-name --remote-name
+        sha256: d39820d374b430b2935ba2e7c89b7323fa25c1301d42128335b2caa431c5e324
+
+#  - name: Realtek Wired Ethernet Drivers v10.75
+#    category: Hardware|LG gram 17Z90N (2020) Laptop
+#    packages:
+#      - url: https://www.realtek.com/Download/List?cate_id=583
+#        sha256: d3f97fa9b03b4a5e9a9a89c5c77f095b6d192beff75eebc0f9f800a3d0238bd7
+
+  - name: Samsung Magician v8.3.1.820
+    category: Hardware|LG gram 17Z90N (2020) Laptop
+    packages:
+      - url: https://download.semiconductor.samsung.com/resources/software-resources/Samsung_Magician_Installer_Official_8.3.1.820.exe
+        sha256: f47f7bbce71ff81bd565e45a249d0eb643ba92a89c0cdc92c1543c47fba5b20e
+      - url: https://download.semiconductor.samsung.com/resources/software-resources/Samsung_Magician_8_3_0_Installation_Guide.pdf
+        sha256: cbe0f9ea877696e5af044429ae4fc7b586da97cc529980e39ff3d4e396243251

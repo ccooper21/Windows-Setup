@@ -1,0 +1,108 @@
+---
+software:
+
+  - name: 7-Zip v25.00
+    category: Utilities
+    packages:
+      - url: https://github.com/ip7z/7zip/releases/download/25.00/7z2500-x64.exe
+        allow-redirect: true
+        sha256: 7b67375b2b303e05d2989f23e986126eda67435c71231fa4b0bdaeb7a619a0a6
+
+  - name: AquaSnap v1.24.1 [Rolling]
+    category: Utilities
+    packages:
+      - url: https://www.nurgo-software.com/download/AquaSnap.msi
+        additional-curl-options: '--header ''User-Agent: Chrome/0.0.0.0'''
+        sha256: 1eea35dbf80de91047ea3b258da25f25ca210eefef35e45b4f42bacbd866dcb8
+
+  - name: cygwin [Rolling; Online]
+    category: Utilities
+    packages:
+      - url: https://www.cygwin.com/setup-x86_64.exe
+        sha256: 46993d76d756bde18564f72a4ee07384cd82b447527ca406c8bfc034cb05c664
+
+  - name: Dependency Walker v2.2.6000
+    category: Utilities
+    packages:
+      - url: https://www.dependencywalker.com/depends22_x64.zip
+        sha256: 35db68a613874a2e8c1422eb0ea7861f825fc71717d46dabf1f249ce9634b4f1
+
+  - name: Everything v1.4.1.1028
+    category: Utilities
+    packages:
+      - url: https://www.voidtools.com/Everything-1.4.1.1028.x64-Setup.exe
+        sha256: 874e87dc9de6e99bcbf46400bf7eced0deda402fc79dd13e0cafabf2277c8149
+
+  - name: Fences 6 v6.0.2.2 [Rolling; Trial]
+    category: Utilities
+    packages:
+      - url: https://cdn.stardock.us/downloads/public/software/fences/v6/Fences6-fs-setup.exe
+        sha256: fe1156f25e6b0e1ec3a35bfdecdabc666a4838a25cee2ccc8239808e784e62db
+
+  - name: FolderTimeUpdate v1.72 [Rolling]
+    category: Utilities
+    packages:
+      - url: https://www.nirsoft.net/utils/foldertimeupdate-x64.zip
+        sha256: b49e8bc044893f978e9a8e60714e29f32fa6ba3f929c4aaa58b74b536e160e3e
+
+  - name: PDFsam Basic v5.3.1
+    category: Utilities
+    packages:
+      - url: https://github.com/torakiki/pdfsam/releases/download/v5.3.1/pdfsam-basic-5.3.1-windows-x64.msi
+        allow-redirect: true
+        sha256: 4aa929831e3e1e07a5351b5a912df393379e78a46f7a2c1f73db1245e542368a
+
+  - name: Power Toys v0.92.1
+    category: Utilities
+    packages:
+      - url: https://github.com/microsoft/PowerToys/releases/download/v0.92.1/PowerToysUserSetup-0.92.1-x64.exe
+        allow-redirect: true
+        sha256: 279886e446d96c3816d5d478d0a31f0458e336afc0fd6d230064f2a72ff14421
+
+  - name: rhash v1.4.6
+    category: Utilities
+    packages:
+      - url: https://master.dl.sourceforge.net/project/rhash/rhash/1.4.6/rhash-1.4.6-english-win64.zip
+        allow-redirect: true
+        sha256: d97da7988acaf8ca8751cd90102b6657e0aeb51e932eee0a4d3b4d54f6c4d30d
+
+  - name: Rufus v4.9.2256
+    category: Utilities
+    packages:
+      - url: https://github.com/pbatard/rufus/releases/download/v4.9/rufus-4.9.exe
+        allow-redirect: true
+        sha256: 497f796e6d076d4855d697965c04626e6d3624658fce3eca82ab14f7414eede2
+
+  - name: Stirling PDF v1.0.2
+    category: Utilities
+    packages:
+      - url: https://github.com/Stirling-Tools/Stirling-PDF/releases/download/v1.0.2/Stirling-PDF-win-installer.exe
+        allow-redirect: true
+        sha256: c7cd79e91de95efae54bb0dfdf91c161928e31081a660b034f2a2c72a5f44f69
+
+  - name: Swiss File Knife v2.0.0.3
+    category: Utilities
+    packages:
+      - url: https://master.dl.sourceforge.net/project/swissfileknife/1-swissfileknife/2.0.0.3/sfk200.zip
+        allow-redirect: true
+        sha256: a92d17037998113ffdac512505ca3257812c361f6481e1410e15379cc8ebf200
+
+  - name: Sysinternals Suite r20250505 [Rolling]
+    category: Utilities
+    packages:
+      - url: https://download.sysinternals.com/files/SysinternalsSuite.zip
+        sha256: 32c055470cecf00d368b6cbcddd7575a9540440e6a1ed498e6261feb0ce18acb
+
+  - name: TidyTabs v1.22.2 [Rolling]
+    category: Utilities
+    packages:
+      - url: https://www.nurgo-software.com/download/TidyTabs.msi
+        additional-curl-options: '--header ''User-Agent: Chrome/0.0.0.0'''
+        sha256: 0be15f33e46dd9a1ea1d0107bdf09b57f324ef9a4a4269af686a621ceaf80e75
+
+  - name: WinMerge v2.16.48.2
+    category: Utilities
+    packages:
+      - url: https://github.com/WinMerge/winmerge/releases/download/v2.16.48.2/WinMerge-2.16.48.2-x64-Setup.exe
+        allow-redirect: true
+        sha256: f8adc543b2dc722252b87b92bae982cce9083a642df30329419457a90484dfa3

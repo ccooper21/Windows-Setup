@@ -1,0 +1,15 @@
+---
+software:
+
+  - name: KiCad v9.0.3
+    category: Special|Electrical Engineering
+    packages:
+      - url: https://github.com/KiCad/kicad-source-mirror/releases/download/9.0.3/kicad-9.0.3-x86_64.exe
+        allow-redirect: true
+        sha256: 582635ced8552c07e043ce9f2eba01dc0c42c96dcb87ce12ba85db1530da593f
+
+  - name: LTspice v24.1.9.1 [Rolling]
+    category: Special|Electrical Engineering
+    packages:
+      - url: https://ltspice.analog.com/software/LTspice64.msi
+        sha256: af93f7916fe70cdf7d99b4e4943ae67a0737c1f2286ad9900bc1de028a1e987f

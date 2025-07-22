@@ -1,0 +1,21 @@
+---
+software:
+
+  - name: Burp Suite Community Edition v2025.6.4
+    category: Development|Networking
+    packages:
+      - url: https://portswigger-cdn.net/burp/releases/download?product=community&version=2025.6.4&type=WindowsX64
+        curl-options: --output 'burpsuite_community_windows-x64_v2025_6_4.exe'
+        sha256: 4e40ff4f714315a3388d5842aa919a89f74ab8ea1a002ec480237aeda1641dbd
+
+  - name: Fiddler Classic v5.0.20242.10753 [Rolling]
+    category: Development|Networking
+    packages:
+      - url: https://telerik-fiddler.s3.amazonaws.com/fiddler/FiddlerSetup.exe
+        sha256: 06812518a722af6f98fbd8c3a5ace0cad1c6d53477972618728e64bafcbc948c
+
+  - name: Wireshark v4.4.8
+    category: Development|Networking
+    packages:
+      - url: https://2.na.dl.wireshark.org/win64/Wireshark-4.4.8-x64.exe
+        sha256: 8e31aa3deda2708887c732ded9b984a9771c7254a257274bbbb8dabd4959df4e

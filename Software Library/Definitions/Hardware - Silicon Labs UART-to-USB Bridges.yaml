@@ -1,0 +1,9 @@
+---
+software:
+
+  # Drivers and Utilities
+  - name: Universal Windows Drivers v11.4.0 [Rolling]
+    category: Hardware|Silicon Labs CP210x UART-to-USB Bridges
+    packages:
+      - url: https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip
+        sha256: 80f1795e957f029a2d01d197c7801e91acb2fa3630404c832ee580ff1c8ff4a0

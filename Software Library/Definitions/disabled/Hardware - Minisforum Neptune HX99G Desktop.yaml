@@ -1,0 +1,90 @@
+---
+software:
+
+  # Minisforum Neptune HX99G Mini PC - Documentation
+  - name: Minisforum Neptune HX99G Mini PC - User Guide r20221221
+    category: Hardware|Minisforum Neptune HX99G Desktop
+    packages:
+      - url: https://www.mediafire.com/file_premium/4w86uq0ibsbvbfm/%25E8%25AF%25B4%25E6%2598%258E%25E4%25B9%25A6_HX99G_%2528V1.0%2529_2022.12.21.pdf/file
+        sha256: 195bc9d93530e70c2bdf7737f7947b78b015c4bc2dde5865aafe6d8db291f9c8
+
+
+
+  # Minisforum Neptune HX99G Mini PC - Firmware
+  - name: Minisforum Neptune HX99G Mini PC - UEFI BIOS r20230302
+    category: Hardware|Minisforum Neptune HX99G Desktop
+    packages:
+      - url: https://www.mediafire.com/file_premium/pfd41ng539tkcsa/HX99G_18_230302T1.zip/file
+        sha256: ca348514d82167f7a6f5ca78d7cd040b9acf355ee4c8dadda8c95710e733f3d9
+      - url: https://www.mediafire.com/file_premium/aled14m5cbns83y/HX99G_BIOS_Update.doc/file
+        sha256: cdb9ca9acc411b37572b6139103d4424c9831ab0ca4b56de03023e2033134d3c
+
+
+
+  # Minisforum Neptune HX99G Mini PC - Drivers and Utilities
+  - name: AMD Chipset Drivers v7.06.02.123
+    category: Hardware|Minisforum Neptune HX99G Desktop
+    packages:
+      - url: https://drivers.amd.com/drivers/amd_chipset_software_7.06.02.123.exe
+        additional-curl-options: '--header ''Referer: https://www.amd.com/'''
+        sha256: 3753b0e41ead2b1c3a94f57e08521119163276d9f3b7f769ae664beaac095a70
+
+  - name: AMD Radeon RDNA Graphics Adrenalin Edition Drivers v25.6.1
+    category: Hardware|Minisforum Neptune HX99G Desktop
+    packages:
+      - url: https://drivers.amd.com/drivers/whql-amd-software-adrenalin-edition-25.6.1-win10-win11-june5-rdna.exe
+        additional-curl-options: '--header ''Referer: https://www.amd.com/'''
+        sha256: b7d6bf26289877dc180754068b1692a25f6d2b212178e34a765e08fc72a33b88
+
+  - name: AMD Ryzen Master v2.14.2.3341 [Rolling]
+    category: Hardware|Minisforum Neptune HX99G Desktop
+    packages:
+      - url: https://download.amd.com/Desktop/amd_ryzen_master.exe
+        sha256: a9f05f8734b5b5067b9a3e9682bc28e8afe0065ef58efc3aea8cd4c2947feec0
+
+  - name: Intel Wired Ethernet Drivers v30.2
+    category: Hardware|Minisforum Neptune HX99G Desktop
+    packages:
+      - url: https://downloadmirror.intel.com/860229/Wired_driver_30.2_x64.zip
+        sha256: 0e17f92b4c1c96745877a27e91848b336e50012f2d0dbd2cf89a32b2edeb8e02
+      - url: https://downloadmirror.intel.com/860229/Wired_PROSet_30.2_x64.zip
+        sha256: 42de215e28ec042404445de72103213161876fbacd864406e1e104ce60c254c0
+      - url: https://downloadmirror.intel.com/860229/Release_Notes.pdf
+        sha256: ea5db5fd9fab7cfa9f1ee8e334d2ebf68a983c4b568604bf84f414f9a8964716
+      - url: https://downloadmirror.intel.com/860229/readme.txt
+        sha256: 466a1d6d4d3f9c2cfb84cfa37d859c60e18fad5336ce4f57e96c037633a73c8b
+
+  - name: MediaTek RZ608 Bluetooth Drivers v1.3.17.164
+    category: Hardware|Minisforum Neptune HX99G Desktop
+    packages:
+      - url: https://catalog.s.download.windowsupdate.com/d/msdownload/update/driver/drvs/2025/02/3d5e740a-2480-4549-8198-facc87716f3a_e0ff3fa301d2c5e0165bc3d637272b03af23c3e5.cab
+        sha256: cad5c179816d4fb7b41fa8fcfa4d6cc4bf99236662ff78c978453a3bc58aa3b4
+
+  - name: MediaTek RZ608 Wireless Ethernet Drivers v3.0.1.1331
+    category: Hardware|Minisforum Neptune HX99G Desktop
+    packages:
+      - url: https://catalog.s.download.windowsupdate.com/c/msdownload/update/driver/drvs/2025/02/877e1246-daad-4cab-8300-ca122c581bf6_88554dd736978300c31986ae1d8b542286de7014.cab
+        sha256: 647f72dc3f6710ba56b441f1264f6c3a684d179e23850690f27f88b2f634b6e5
+
+  - name: Qualcomm NCM865 Bluetooth Drivers v3.1.0.1453
+    category: Hardware|Minisforum Neptune HX99G Desktop
+    packages:
+      - url: https://catalog.s.download.windowsupdate.com/c/msdownload/update/driver/drvs/2025/05/2f205306-021d-4105-9b61-76816c392efa_073d23869840a916aeb0c8ea9ee6c13d3fe38edf.cab
+        sha256: 8d9d6004b8c0b9a6ba29b214dc19c9ae89854caa55a0bdecbb280a7897a5374e
+
+  - name: Qualcomm NCM865 Wireless Ethernet Drivers v3.1.0.1453
+    category: Hardware|Minisforum Neptune HX99G Desktop
+    packages:
+      - url: https://catalog.s.download.windowsupdate.com/c/msdownload/update/driver/drvs/2025/05/b126c340-633a-43db-9b98-20d3a21ae3f9_2927f63d49b8fe80a788abe6d2db7a35fc6420c3.cab
+        sha256: bb7fbfd4fcf57dff96425a8fe5a91e2e2ac8ac4affb6155e8b0bcc8f43327281
+
+
+
+  # Samsung 990 PRO 2TB NVMe M.2 Solid State Drive (SSD) Drive - Drivers and Utilities
+  - name: Samsung Magician v8.3.1.820
+    category: Hardware|Minisforum Neptune HX99G Desktop
+    packages:
+      - url: https://download.semiconductor.samsung.com/resources/software-resources/Samsung_Magician_Installer_Official_8.3.1.820.exe
+        sha256: f47f7bbce71ff81bd565e45a249d0eb643ba92a89c0cdc92c1543c47fba5b20e
+      - url: https://download.semiconductor.samsung.com/resources/software-resources/Samsung_Magician_8_3_0_Installation_Guide.pdf
+        sha256: cbe0f9ea877696e5af044429ae4fc7b586da97cc529980e39ff3d4e396243251

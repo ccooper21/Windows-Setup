@@ -1,0 +1,28 @@
+---
+software:
+
+  - name: Git v2.50.1
+    category: Development|Source Control
+    packages:
+      - url: https://github.com/git-for-windows/git/releases/download/v2.50.1.windows.1/Git-2.50.1-64-bit.exe
+        allow-redirect: true
+        sha256: 47fe1d46dbb7111f6693b04a8bd95fc869ce2062df7b4822b52849548fb457e4
+
+  - name: SlikSVN Client v1.14.5
+    category: Development|Source Control
+    packages:
+      - url: https://sliksvn.com/pub/Slik-Subversion-1.14.5-x64.zip
+        sha256: 77d4fe02999dda3bdc3a20e86243ae6ede99aaf072b4c12b0cdedb54d88e954a
+
+  - name: TortoiseGit v2.17.0.2
+    category: Development|Source Control
+    packages:
+      - url: https://download.tortoisegit.org/tgit/2.17.0.0/TortoiseGit-2.17.0.2-64bit.msi
+        sha256: 66ca43f34e1beefc50df67335d8cbf75f29ae5bad66e678fa673f40f53649961
+
+  - name: TortoiseSVN v1.14.9.29743
+    category: Development|Source Control
+    packages:
+      - url: https://master.dl.sourceforge.net/project/tortoisesvn/1.14.9/Application/TortoiseSVN-1.14.9.29743-x64-svn-1.14.5.msi
+        allow-redirect: true
+        sha256: 244f3d754212ff65d057a1a02f99dd59f8b4c7ea4e4dd33eae8fb9b52895eec2

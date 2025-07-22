@@ -1,0 +1,19 @@
+---
+software:
+
+  # Documentation
+  - name: Tezarre TK61 Keyboard - User Guide r20210901 [Rolling]
+    category: Hardware|Tezarre Keyboards
+    packages:
+      - url: https://cdn.shopifycdn.net/s/files/1/0618/1093/3949/files/Tezarre-TK61-User-Guide.pdf
+        sha256: 0a61e6bda19e42d04240760c406be7a5f6724ee85121969d4a5838aad24bb4ee
+
+
+
+  # Firmware
+  - name: Tezarre TK61 Keyboard - Firmware r20210722
+    category: Hardware|Tezarre Keyboards
+    packages:
+      - url: https://drive.usercontent.google.com/download?id=1zJxJS0Miq7Oc7S3i3LK-BH2AlYzajLXM&export=download&authuser=0&confirm=t
+        curl-options: --output 'Arrow Key & ps4,ps5 Compatibility Fix..zip'
+        sha256: 0cdc357a98bd4dcc6b17cfbfe9abe67e7e52c17473a50677ca90ce8254347e69

@@ -1,0 +1,17 @@
+---
+software:
+
+  - name: Notepad++ v8.8.3
+    category: Editors
+    packages:
+      - url: https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.8.3/npp.8.8.3.Installer.x64.exe
+        allow-redirect: true
+        sha256: 7094a07167648628e47249a16d9d6db922e5aa1255ac4322a2e4900d233372dd
+
+  - name: Visual Studio Code v1.102.1 [Rolling]
+    category: Editors
+    packages:
+      - url: https://code.visualstudio.com/sha/download?build=stable&os=win32-x64
+        curl-options: --output 'VSCodeSetup-x64-1.102.1.exe'
+        allow-redirect: true
+        sha256: b2084320597e5311bf6fbc23598227009af874c7ad55fbd0f1ab2f22a45b0144

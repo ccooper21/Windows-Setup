@@ -1,0 +1,28 @@
+---
+software:
+
+  - name: Node.js v22.17.1 (LTS)
+    category: Runtime Environments
+    packages:
+      - url: https://nodejs.org/dist/v22.17.1/node-v22.17.1-x64.msi
+        sha256: 29bf63d4be9e9ba53d8974086cd9ef2403317e6c237d98d6e498205da4d48753
+
+  - name: Python v3.13.5
+    category: Runtime Environments
+    packages:
+      - url: https://www.python.org/ftp/python/3.13.5/python-3.13.5-amd64.exe
+        sha256: c1cb40978b28f696b111c36034a1bdeda17d25e35c74a08ef5e5ff405a63fc20
+
+  - name: Temurin OpenJDK Java Development Kit v21.0.7+6 (LTS)
+    category: Runtime Environments
+    packages:
+      - url: https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.7%2B6/OpenJDK21U-jdk_x64_windows_hotspot_21.0.7_6.msi
+        allow-redirect: true
+        sha256: 168e3c710448dbdd7e6fe2463b867339a72be11a7c8615d72d19fb26572d3619
+
+  - name: Temurin OpenJDK Java Runtime Environment v21.0.7+6 (LTS)
+    category: Runtime Environments
+    packages:
+      - url: https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.7%2B6/OpenJDK21U-jre_x64_windows_hotspot_21.0.7_6.msi
+        allow-redirect: true
+        sha256: 7c75fbd2c99649580b7869b756effa5b6b30e6808fae1ebc7eeb63921aafd096

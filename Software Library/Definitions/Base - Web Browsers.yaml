@@ -1,0 +1,24 @@
+---
+software:
+
+  - name: Chrome v138.0.7204.158 [Rolling]
+    category: Web Browsers
+    packages:
+      - url: https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7B55D7DA3F-1072-C35F-B3DE-D3779D08D18D%7D%26lang%3Den%26browser%3D4%26usagestats%3D0%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers%26ap%3Dx64-statsdef_1%26installdataindex%3Dempty/chrome/install/ChromeStandaloneSetup64.exe
+        sha256: 20343b41b7ee3e71e45fe14a59c523a903cf198c2d67b3896ee0870329b3ed75
+
+  - name: Firefox v140.0 (ESR) [Rolling]
+    category: Web Browsers
+    packages:
+      - url: https://download.mozilla.org/?product=firefox-esr-next-latest-ssl&os=win64&lang=en-US
+        curl-options: --output 'Firefox Setup 140.0esr.exe'
+        allow-redirect: true
+        sha256: 26d2466c67001df976c446aec339e03390c553513ada92ef3191e85fde36f109
+
+  - name: Firefox v140.0.4 [Rolling]
+    category: Web Browsers
+    packages:
+      - url: https://download.mozilla.org/?product=firefox-latest-ssl&os=win64&lang=en-US
+        curl-options: --output 'Firefox Setup 140.0.4.exe'
+        allow-redirect: true
+        sha256: b4a7ec96b1ae9539c1cb7a49bc103f267bdda8051c9ec0574cd2acc2da0e45a7

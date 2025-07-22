@@ -1,0 +1,14 @@
+---
+software:
+
+  - name: Bitvise SSH Client v9.45 [Rolling]
+    category: Terminal and Remote Desktop
+    packages:
+      - url: https://dl.bitvise.com/BvSshClient-Inst.exe
+        sha256: 0069abb8269b14cfbd8452a628c491ee96513d0527a576539f1fb6672aacb52d
+
+  - name: Remote Desktop Connection Manager v3.1 [Rolling]
+    category: Terminal and Remote Desktop
+    packages:
+      - url: https://download.sysinternals.com/files/RDCMan.zip
+        sha256: fb0d563accc0bc23ce7a9a20e62cc5859c3b3f2fa0f2de3ce7dc23ad9ca2001d

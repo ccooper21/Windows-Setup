@@ -1,0 +1,29 @@
+---
+software:
+
+  - name: Ext2Fsd v0.69
+    category: Special|Disk and File System
+    packages:
+      - url: https://master.dl.sourceforge.net/project/ext2fsd/Ext2fsd/0.69/Ext2Fsd-0.69.exe
+        allow-redirect: true
+        sha256: 04461a580e5d259ef7aca9e0c0d715d3baf342ad940354b6545d7ff3ed85af1c
+
+  - name: ImDisk Toolkit r20250206
+    category: Special|Disk and File System
+    packages:
+      - url: https://master.dl.sourceforge.net/project/imdisk-toolkit/20250206/ImDiskTk-x64.zip
+        allow-redirect: true
+        sha256: c2105a677ed2269a90565bd4b73b86b9450cfa303673abb978c1eb4ac67e4ba5
+
+  - name: KillDisk Freeware Suite v25.0.27 [Rolling]
+    category: Special|Disk and File System
+    packages:
+      - url: https://killdisk.com/downloads/KillDisk-Freeware-Setup.exe
+        allow-redirect: true
+        sha256: 2c1d01905e1b72aa89c04995b630b6bb67ba372e8431e3c56b41c58300d0a13d
+
+  - name: OSFMount v3.1.1003 [Rolling]
+    category: Special|Disk and File System
+    packages:
+      - url: https://www.osforensics.com/downloads/osfmount.exe
+        sha256: 9fe0738b7c2d29a7414e67f53aea359f3801d1c37b44f1b4fed5d02cb7536369

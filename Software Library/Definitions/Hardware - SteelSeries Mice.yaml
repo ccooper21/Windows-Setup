@@ -1,0 +1,20 @@
+---
+software:
+
+  # Documentation
+  - name: SteelSeries Aerox 3 Mouse - Product Information Guide r20220816 [Rolling]
+    category: Hardware|SteelSeries Mice
+    packages:
+      - url: https://downloads.steelseriescdn.com/guides/MO_aerox_3_pig_web.pdf
+        sha256: 74c31472d74dd5700898cba95531d68ffdd6ab818307bb911d38f6a67e18eb74
+      - url: https://downloads.steelseriescdn.com/guides/Aerox_3_WL_PIG_MP-2.pdf
+        sha256: f80fc94f5b0f5debe374d72f9f16f62dc12085cd17e2de884854da579ad8aca0
+
+
+
+  # Drivers and Utilities
+  - name: SteelSeries Engine v90.0.0
+    category: Hardware|SteelSeries Mice
+    packages:
+      - url: https://engine.steelseriescdn.com/SteelSeriesGG90.0.0Setup.exe
+        sha256: 1f64cb953853af4444be1b89e124983edfbb6cba08e49e8497b08a54bf25897a

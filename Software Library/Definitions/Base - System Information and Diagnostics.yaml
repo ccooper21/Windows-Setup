@@ -1,0 +1,48 @@
+---
+software:
+
+  - name: AIDA64 Extreme v7.70.7500
+    category: System Information and Diagnostics
+    packages:
+      - url: https://download2.aida64.com/aida64extreme770.exe
+        sha256: 9018d5accc25ac2ac93f1896b3fd8d980f9db0c0bea541dded6d3580e61a8eea
+
+  - name: CPU-Z v2.16
+    category: System Information and Diagnostics
+    packages:
+      - url: https://download.cpuid.com/cpu-z/cpu-z_2.16-en.exe
+        sha256: 9d2e3b817f89caadd7d373a0032cf2443844bbe22eebdcca0a758d2a91924871
+
+  - name: CrystalDiskInfo v9.7.0
+    category: System Information and Diagnostics
+    packages:
+      - url: https://master.dl.sourceforge.net/project/crystaldiskinfo/9.7.0/CrystalDiskInfo9_7_0Ads.exe
+        allow-redirect: true
+        sha256: 92a1568bfe664c7a824e455501648d57419b9b1ad4927a44f29e7bdf1d3e777f
+
+  - name: GPU-Z v2.66.0
+    category: System Information and Diagnostics
+    packages:
+      - url: https://www.techpowerup.com/download/techpowerup-gpu-z/
+        curl-options: --data-raw 'id=2875&server_id=3' --output 'GPU-Z.2.66.0.exe'
+        allow-redirect: true
+        sha256: fbb26682e23c9b2012a3943f895012c45f5b92c933e91a85749f292daca3efca
+
+  - name: HWiNFO v8.28
+    category: System Information and Diagnostics
+    packages:
+      - url: https://master.dl.sourceforge.net/project/hwinfo/Windows_Installer/hwi64_828.exe
+        allow-redirect: true
+        sha256: c92e60d5bff8e92c95c96549d5f965d0c89e6972c1db41ceba08dce1f8f076b2
+
+  - name: HWMonitor v1.58
+    category: System Information and Diagnostics
+    packages:
+      - url: https://download.cpuid.com/hwmonitor/hwmonitor_1.58.exe
+        sha256: c8215b3bf6632f4d5766cf672725e8b4484efd7e5462b390d1802e98959be182
+
+  - name: Speccy Free v1.33.75
+    category: System Information and Diagnostics
+    packages:
+      - url: https://download.ccleaner.com/spsetup133.exe
+        sha256: 03c35fcb1d10cf478c0b9896699937e6e262daa4f4a4353a7cc56b238fe86892

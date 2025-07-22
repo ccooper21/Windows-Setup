@@ -1,0 +1,15 @@
+---
+software:
+
+  - name: Bonjour Browser v1.13 [Rolling]
+    category: Special|Networking
+    packages:
+      - url: https://hobbyistsoftware.com/Downloads/BonjourBrowser/BonjourBrowserSetup.exe
+        sha256: 86b966bb0516c2ae729cc009fd3ecff0c3e4fe9462a4d8fa63181c0a339553c9
+
+  - name: Visual Syslog Server v1.6.4.19
+    category: Special|Networking
+    packages:
+      - url: https://github.com/MaxBelkov/visualsyslog/releases/download/v1.6.4/visualsyslog_setup.zip
+        allow-redirect: true
+        sha256: 9efbde364f2abfdcfd1f69ed536ebdc1daa37030e52085e0932557567bb8cd7f

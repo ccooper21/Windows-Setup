@@ -1,0 +1,10 @@
+---
+software:
+
+  # Drivers and Utilities
+  - name: SK hynix Drive Manager vC3.2.0
+    category: Hardware|SK hynix Solid State Drives (SSD)
+    packages:
+      - url: https://ssd.skhynix.com/download/driver_manager/DriveManager-C3.2.0-windows-installer-x64.exe
+        allow-insecure: true
+        sha256: c5f5c82e52612562ba5d06dff7b8d4cb7939ae5fcddcfdbd06432225ae45fb41

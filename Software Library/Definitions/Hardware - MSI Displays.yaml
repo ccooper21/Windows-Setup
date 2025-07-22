@@ -1,0 +1,41 @@
+---
+software:
+
+  # Documentation
+  - name: MSI G Series G274QPF Display - User Guide v1.0 r20230615
+    category: Hardware|MSI Displays
+    packages:
+      - url: https://download.msi.com/archive/mnu_exe/monitor/G274QPFv1.0_English.pdf
+        allow-redirect: true
+        sha256: 5c9f1c3d1b3bf8b2b74a4e8a2933ebd86f0636172f60733e2ac32f3af4edca36
+
+  - name: MSI Optix Series G271 Display - User Guide v1.1 r20230515
+    category: Hardware|MSI Displays
+    packages:
+      - url: https://download.msi.com/archive/mnu_exe/monitor/Optix_G241_G271v1.1_English.pdf
+        allow-redirect: true
+        sha256: 4636eadec0ea81ba8fd02845fd82299c25466ca4dadb0e50f517aa6351fb32c3
+
+
+
+  # Drivers and Utilities
+  - name: MSI Display Kit v0.0.2.3 [Rolling]
+    category: Hardware|MSI Displays
+    packages:
+      - url: https://download.msi.com/uti_exe/monitor/DisplayKit-x64.zip
+        allow-redirect: true
+        sha256: eb8be4e9c3d2587f7c34c77b156815399f74b8d4d136aa359ecc9556fb8926bd
+
+  - name: MSI G Series G274QPF Display - INF file r20240918 [Rolling]
+    category: Hardware|MSI Displays
+    packages:
+      - url: https://download.msi.com/dvr_exe/monitor/MS-3CC2-G274QPF-INF.zip
+        allow-redirect: true
+        sha256: bc51561b8389f51d1040f7ec512898d209f97288bf21746a509778f40d48b9d1
+
+  - name: MSI Optix Series G271 Display - INF file r20210131 [Rolling]
+    category: Hardware|MSI Displays
+    packages:
+      - url: https://download.msi.com/dvr_exe/monitor/G271-INF.zip
+        allow-redirect: true
+        sha256: ba7f399da07c5e44e3b818278f60423bf7eb01252a1ca00b3df4f0fbf8bc8542

@@ -1,0 +1,25 @@
+---
+software:
+
+  - name: 3DMark Basic Edition v2.29.8299
+    category: Special|Benchmarks
+    packages:
+      - url: https://www.techpowerup.com/download/futuremark-3dmark-timespy-raytracing/
+        curl-options: --data-raw 'id=2750&server_id=3' --output '3DMark-v2-29-8299.zip'
+        allow-redirect: true
+        sha256: 0420cee3c2be2e41080ec508acafe15020fa695f0cf31b1a263976f504fdab38
+
+  - name: Cinebench 2024 v2024.1.0 [Rolling]
+    category: Special|Benchmarks
+    packages:
+      - url: https://mx-app-blob-prod.maxon.net/mx-package-production/website/windows/maxon/cinebench/Cinebench2024_win_x86_64.zip
+        additional-curl-options: '--header ''Referer: https://www.maxon.net/en/downloads/cinebench-2024-downloads'''
+        sha256: f93b4925ef0445dc4d4bfa4d44157cf036b68e1eb0caa2ec1e6fd7b1f56a5839
+
+  - name: PCMark 10 Basic Edition v2.2.2704
+    category: Special|Benchmarks
+    packages:
+      - url: https://www.techpowerup.com/download/futuremark-pcmark-10/
+        curl-options: --data-raw 'id=2746&server_id=3' --output 'PCMark10-v2-2-2704-professional.zip'
+        allow-redirect: true
+        sha256: 692c7d44537186253311bb349ec564e55616eda83143cffd87433cdea3ea4fd2

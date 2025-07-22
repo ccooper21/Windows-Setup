@@ -1,0 +1,25 @@
+---
+software:
+
+  - name: 010 Editor v15.0.2 [Rolling; Trial]
+    category: Development|Editors
+    packages:
+      - url: https://www.sweetscape.com/download/010EditorWin64Installer.exe
+        allow-redirect: true
+        sha256: a83418fe72dfa758ac8e0331d03e735697de7feb36d93dc14234dda3bf58e488
+
+  - name: HxD v2.5.0.0 [Rolling]
+    category: Development|Editors
+    packages:
+      - url: https://mh-nexus.de/downloads/HxDSetup.zip
+        sha256: 5065041c7b03c24b9533a5b32b33db58f2b4924cd84bed41834ff2db51c1cb7c
+
+  - name: WinHex v21.5 [Rolling; Trial]
+    category: Development|Editors
+    packages:
+      - url: https://www.x-ways.net/winhex.zip
+        sha256: b01b014a94fa8ef27556acff41bedc2ac134061074eebc8b43193fc8ad2b7fd2
+      - url: https://www.x-ways.net/winhex/history/winhex214.zip
+        sha256: 8482cf1b163db92130cba4fa01ba68171e243561d3fa7acd716719bd3767a9d5
+      - url: https://www.x-ways.net/winhex/history/winhex214-addon.zip
+        sha256: 64ffd2d7e46d23b542fb6f436a9d720dee69c5fd75f784192f98115a1f888e27

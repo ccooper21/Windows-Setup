@@ -1,0 +1,9 @@
+---
+software:
+
+  - name: CrystalDiskMark v9.0.1
+    category: Benchmarks
+    packages:
+      - url: https://master.dl.sourceforge.net/project/crystaldiskmark/9.0.1/CrystalDiskMark9_0_1Ads.exe
+        allow-redirect: true
+        sha256: 22492de0499d1ef05dc40784a726a7c1cf5e2f10377fcb94d43fd6297479b4f2

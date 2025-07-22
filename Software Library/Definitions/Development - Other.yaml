@@ -1,0 +1,22 @@
+---
+software:
+
+  - name: API Monitor v2r13 (alpha)
+    category: Development|Other
+    packages:
+      - url: http://www.rohitab.com/download/api-monitor-v2r13-setup-x64.exe
+        allow-insecure: true
+        allow-redirect: true
+        sha256: 46c1f2f4e8dfa8e0c2775b1cc4a20491d7413a87f3d08e8385f1e70dba6756e9
+
+  - name: Netwide Assembler v2.16.03
+    category: Development|Other
+    packages:
+      - url: https://www.nasm.us/pub/nasm/releasebuilds/2.16.03/win64/nasm-2.16.03-installer-x64.exe
+        sha256: 657e1252676cfb26a008835c20a760f731c8e0414469a4ed0f83f0fb059cdd35
+
+  - name: Windows 11 Software Development Kit v10.1.26100.3916 [Rolling; Online]
+    category: Development|Other
+    packages:
+      - url: https://download.microsoft.com/download/93ee7ce2-4437-4aac-aece-5595aca15fa7/KIT_BUNDLE_WINDOWSSDK_MEDIACREATION/winsdksetup.exe
+        sha256: f70feb22624adbdb26873b4feff1ba0ef589238a9c3d8d604761f331260b79d0
