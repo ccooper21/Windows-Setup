@@ -1,23 +1,30 @@
 ---
 software:
 
-  - name: PyCharm v2025.1.3.1
+  - name: IntelliJ IDEA v2026.1.1
     category: Development|IDE
     packages:
-      - url: https://download.jetbrains.com/python/pycharm-2025.1.3.1.exe
+      - url: https://download-cdn.jetbrains.com/idea/idea-2026.1.1.exe
         allow-redirect: true
-        sha256: 2d1fb4856592fa843cbe7cdbc840bf5ae90148c5b3ddfdb77e818373fe462f4c
+        sha256: 4962db9c25454477557153011c8058e1516b7472cd22a8903532e464528156df
 
-  - name: Visual Studio Community 2022 v17.14.36310.24 [Rolling; Online]
+  - name: PyCharm v2026.1
     category: Development|IDE
     packages:
-      - url: https://c2rsetup.officeapps.live.com/c2r/downloadVS.aspx?sku=community&channel=Release&version=VS2022&includeRecommended=true
+      - url: https://download-cdn.jetbrains.com/python/pycharm-2026.1.exe
+        allow-redirect: true
+        sha256: be4beafe462137a7afe55066d33e64ec759469bea676527c0b03cf94cdf6c1c9
+
+  - name: Visual Studio Community 2026 v18.5.11716.220 [Rolling; Online]
+    category: Development|IDE
+    packages:
+      - url: https://c2rsetup.officeapps.live.com/c2r/downloadVS.aspx?sku=community&channel=stable&version=VS18&includeRecommended=true
         curl-options: --remote-header-name --remote-name
-        sha256: 0a886fa03744ca42d5f7db285fa8cd6906542cf7977cdeb70e9532e90470f9be
+        sha256: 13b204bdb267d4d1bed5381c4932c0562f228f1069166c04c9064af40d29aa9b
 
-  - name: WebStorm v2025.1.3
+  - name: WebStorm v2026.1.1
     category: Development|IDE
     packages:
-      - url: https://download-cdn.jetbrains.com/webstorm/WebStorm-2025.1.3.exe
+      - url: https://download-cdn.jetbrains.com/webstorm/WebStorm-2026.1.1.exe
         allow-redirect: true
-        sha256: 060e697d95a0898f714ac5cbf054fe770fa33a8c1152047aa1bc2ff30f3ab21d
+        sha256: b4069019e3c0ee962f1d5fa93ecb66d5f911e9de63f87a410d86c23bb3945048

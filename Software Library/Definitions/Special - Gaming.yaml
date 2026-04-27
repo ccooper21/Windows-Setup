@@ -1,17 +1,17 @@
 ---
 software:
 
-  - name: EA (Electronic Arts) Client v13.511.0.6024 [Rolling; Online]
+  - name: EA (Electronic Arts) Client v13.690.2.6204 [Rolling; Online]
     category: Special|Gaming
     packages:
       - url: https://origin-a.akamaihd.net/EA-Desktop-Client-Download/installer-releases/EAappInstaller.exe
-        sha256: 62fa21a2192d72af74496b51bdfcc4b2f8dadcedb790f812c0ce8d35a2e28127
+        sha256: 01eed4ce5f357ead171b5d0f35baad2a17994d0d1b04f0ba7a62e0fe9b2ae03a
 
-  - name: GOG Galaxy Client v2.0.0.2 [Rolling; Online]
+  - name: GOG Galaxy Client [Rolling; Online]
     category: Special|Gaming
     packages:
       - url: https://webinstallers.gog-statics.com/download/GOG_Galaxy_2.0.exe
-        sha256: fd627d2c37bb5fa3540384fb2923dbfefa1b222d8c34e14f9127c8971efb093e
+        sha256: 826eef5ab19f127a77e79719a5af515d6a6c1ff6d4bf664dbf868a19e6d4287d
 
   - name: Steam Client v2.10.91.91 [Rolling; Online]
     category: Special|Gaming
@@ -19,8 +19,8 @@ software:
       - url: https://cdn.steamstatic.com/client/installer/SteamSetup.exe
         sha256: 7d3654531c32d941b8cae81c4137fc542172bfa9635f169cb392f245a0a12bcb
 
-  - name: Ubisoft Connect Client v165.2.0.12833 [Rolling]
+  - name: Ubisoft Connect Client v170.2.13140 [Rolling]
     category: Special|Gaming
     packages:
       - url: https://static3.cdn.ubi.com/orbit/launcher_installer/UbisoftConnectInstaller.exe
-        sha256: b1f26d7beafb32abdaf643781e5144c64f6135b248c13ad6b7ed5e27a4d66ebd
+        sha256: be622df39659212209f770266e61327772b422eeb6395ed9fb95d255ff13e3e7

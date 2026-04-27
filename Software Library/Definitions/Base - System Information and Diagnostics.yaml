@@ -1,45 +1,45 @@
 ---
 software:
 
-  - name: AIDA64 Extreme v7.70.7500
+  - name: AIDA64 Extreme v8.25.8200 [Trial]
     category: System Information and Diagnostics
     packages:
-      - url: https://download2.aida64.com/aida64extreme770.exe
-        sha256: 9018d5accc25ac2ac93f1896b3fd8d980f9db0c0bea541dded6d3580e61a8eea
+      - url: https://download.aida64.com/aida64extreme825.exe
+        sha256: c26bbaac11f0847b143605bd2b9f221a207e69e7335682b8ca4b8d0b5ca0aaca
 
-  - name: CPU-Z v2.16
+  - name: CPU-Z v2.19
     category: System Information and Diagnostics
     packages:
-      - url: https://download.cpuid.com/cpu-z/cpu-z_2.16-en.exe
-        sha256: 9d2e3b817f89caadd7d373a0032cf2443844bbe22eebdcca0a758d2a91924871
+      - url: https://download.cpuid.com/cpu-z/cpu-z_2.19-en.exe
+        sha256: 96ac7864f87a133864293e92f6a3ab4484685470e5bde82cc8eaf1f974741775
 
-  - name: CrystalDiskInfo v9.7.0
+  - name: CrystalDiskInfo v9.8.0
     category: System Information and Diagnostics
     packages:
-      - url: https://master.dl.sourceforge.net/project/crystaldiskinfo/9.7.0/CrystalDiskInfo9_7_0Ads.exe
+      - url: https://downloads.sourceforge.net/project/crystaldiskinfo/9.8.0/CrystalDiskInfo9_8_0Ads.exe
         allow-redirect: true
-        sha256: 92a1568bfe664c7a824e455501648d57419b9b1ad4927a44f29e7bdf1d3e777f
+        sha256: 587be45855c1193b3a033e67cb4c74be4f9023e54702a3d3698d0df077201275
 
-  - name: GPU-Z v2.66.0
+  - name: GPU-Z v2.69.0
     category: System Information and Diagnostics
     packages:
       - url: https://www.techpowerup.com/download/techpowerup-gpu-z/
-        curl-options: --data-raw 'id=2875&server_id=3' --output 'GPU-Z.2.66.0.exe'
+        curl-options: --data-raw 'id=3073&server_id=3' --output 'GPU-Z.2.69.0.exe'
         allow-redirect: true
-        sha256: fbb26682e23c9b2012a3943f895012c45f5b92c933e91a85749f292daca3efca
+        sha256: aa6495e40a1dc3b03b03b5b0c831c5fd8f2722c9cb71254d9a059ccf4c9ba578
 
-  - name: HWiNFO v8.28
+  - name: HWiNFO v8.34
     category: System Information and Diagnostics
     packages:
-      - url: https://master.dl.sourceforge.net/project/hwinfo/Windows_Installer/hwi64_828.exe
+      - url: https://downloads.sourceforge.net/project/hwinfo/Windows_Installer/hwi64_834.exe
         allow-redirect: true
-        sha256: c92e60d5bff8e92c95c96549d5f965d0c89e6972c1db41ceba08dce1f8f076b2
+        sha256: 65f8ce278cd1509e2505f9e0eee8063a8338fc3d30f0f74b63a5c746250ac49f
 
-  - name: HWMonitor v1.58
+  - name: HWMonitor v1.63
     category: System Information and Diagnostics
     packages:
-      - url: https://download.cpuid.com/hwmonitor/hwmonitor_1.58.exe
-        sha256: c8215b3bf6632f4d5766cf672725e8b4484efd7e5462b390d1802e98959be182
+      - url: https://download.cpuid.com/hwmonitor/hwmonitor_1.63.exe
+        sha256: 6c8faba4768754c3364e7c400a9d79ccbece156087be607583619f11a09cb064
 
   - name: Speccy Free v1.33.75
     category: System Information and Diagnostics

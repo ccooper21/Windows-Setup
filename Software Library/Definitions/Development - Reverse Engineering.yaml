@@ -1,15 +1,39 @@
 ---
 software:
 
-  - name: Ghidra v11.4
+  - name: Binary Ninja Free v5.3.9434
     category: Development|Reverse Engineering
     packages:
-      - url: https://github.com/NationalSecurityAgency/ghidra/releases/download/Ghidra_11.4_build/ghidra_11.4_PUBLIC_20250620.zip
+      - url: https://cdn.binary.ninja/installers/binaryninja_free_win64.exe
         allow-redirect: true
-        sha256: 8b2902bb3166901bc6297a06892eee077c08605be65abfe73ce7aaaafb651632
+        sha256: 897d086a34e7166c56f7d944c69352f3126561f023d8fff5662ddb7a722aee01
+
+  - name: dotPeek v2026.1.0.1
+    category: Development|Reverse Engineering
+    packages:
+      - url: https://download.jetbrains.com/resharper/dotUltimate.2026.1.0.1/JetBrains.dotPeek.2026.1.0.1.web.exe
+        allow-redirect: true
+        sha256: 861739c007436d45d9f716fef5909962b3ed33529f9b23d87a29e685304b4c5f
+
+  - name: Ghidra v12.0.4
+    category: Development|Reverse Engineering
+    packages:
+      - url: https://github.com/NationalSecurityAgency/ghidra/releases/download/Ghidra_12.0.4_build/ghidra_12.0.4_PUBLIC_20260303.zip
+        allow-redirect: true
+        sha256: c3b458661d69e26e203d739c0c82d143cc8a4a29d9e571f099c2cf4bda62a120
 
   - name: IDA Free v8.3
     category: Development|Reverse Engineering
     packages:
       - url: https://out7.hex-rays.com/files/idafree83_windows.exe
         sha256: 10080a057704630578e697c6bb0b09968a54138075cacab175f62d60c71d0a1f
+
+  - name: x64dbg v2025.08.19
+    category: Development|Reverse Engineering
+    packages:
+      - url: https://github.com/x64dbg/x64dbg/releases/download/2025.08.19/snapshot_2025-08-19_19-40.zip
+        allow-redirect: true
+        sha256: cc614caf34f9fe1ec156f045129db3a513c35593ff1ee647bc819a352dc12271
+      - url: https://github.com/x64dbg/x64dbg/releases/download/2025.08.19/symbols-snapshot_2025-08-19_19-40.zip
+        allow-redirect: true
+        sha256: af1b605369fc7ce91a02f9da1b1fd6ccaca53328617cf4c35a7a18637694c28e

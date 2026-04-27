@@ -2,9 +2,11 @@
 software:
 
   # https://origin.pfultd.com/downloads/IMAGE/driver/ss/inst/ix1500/w-software/WinManagerV72L71WW.exe
+  # https://origin.pfultd.com/downloads/IMAGE/driver/ss/inst/ix1500/w-software/WinOnlineUpdateV31L39.exe
   # https://origin.pfultd.com/downloads/IMAGE/driver/ss/inst/ix1500/w-software/WinScanSnapManualsV21L10.exe
   # https://origin.pfultd.com/downloads/IMAGE/driver/ss/inst/ix1500/w-software/WinScanSnapOCRPackage001V10L20.exe
   # https://origin.pfultd.com/downloads/ss/ssinst/ix1600-ww/WinSSInst2iX1600WW.exe
+  # https://www.pfu.jp/dl/ss-cert/abbyy/w-55/WinFR4SSV55_1303_11.exe ('Referer: https://www.pfu.ricoh.com/')
   # https://www.pfu.jp/dl/ss-cert/org/w-v56l42/WinOrganizerV56L42WW.exe
 
 
@@ -24,27 +26,14 @@ software:
 
 
   # Drivers and Utilities
-  - name: ABBYY FineReader for ScanSnap v5.5
+  - name: ScanSnap Home v3.6.1
     category: Hardware|ScanSnap Scanners
     packages:
-      - url: https://www.pfu.jp/dl/ss-cert/abbyy/w-55/WinFR4SSV55_1303_11.exe
-        additional-curl-options: '--header ''referer: https://www.pfu.ricoh.com/'''
-        sha256: 616f162a8f4bc8ad815ecbcca7cc8bdd7c3f43e750bf2cba3cd6854b2ac82c4a
+      - url: https://origin.pfultd.com/downloads/ss/sshinst/w-361/WinSSHOfflineInstaller_3_6_1.exe
+        sha256: 25475ece1e73ec9bb0dfcc545c23f934b435059ae1ba37cc22f8ec81a2bdf963
 
-  - name: ScanSnap Home v2.22.2
+  - name: ScanSnap Home v3.6.1 [Online]
     category: Hardware|ScanSnap Scanners
     packages:
-      - url: https://origin.pfultd.com/downloads/ss/sshinst/w-2222/WinSSHOfflineInstaller_2_22_2.exe
-        sha256: fa932ec5502acbff1ac36ba4f1206a958fbc721297295b0e22048144fc467446
-
-  - name: ScanSnap Home v2.22.2 [Online]
-    category: Hardware|ScanSnap Scanners
-    packages:
-      - url: https://origin.pfultd.com/downloads/ss/sshinst/w-2222/WinSSHDownloadInstaller_2_22_2.exe
-        sha256: e9a08424c1f55e3522b2c647498105dc9e5394e9c2d679521d94bc79a38bcbd8
-
-  - name: ScanSnap Online Update v3.1.39.1 (v3.1L39)
-    category: Hardware|ScanSnap Scanners
-    packages:
-      - url: https://origin.pfultd.com/downloads/IMAGE/driver/ss/inst/ix1500/w-software/WinOnlineUpdateV31L39.exe
-        sha256: 2ba30a940c8eb0e1a6ef7ad10cc31deab03b23c033bb1702b31322222ca145e3
+      - url: https://origin.pfultd.com/downloads/ss/sshinst/w-361/WinSSHDownloadInstaller_3_6_1.exe
+        sha256: 4d85d88afd101dada50dc09742b4b5d88cc89b39fb943dbe114b11cc22ad374f

@@ -1,17 +1,24 @@
 ---
 software:
 
-  - name: Notepad++ v8.8.3
+  - name: NeoVim v0.12.1
     category: Editors
     packages:
-      - url: https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.8.3/npp.8.8.3.Installer.x64.exe
+      - url: https://github.com/neovim/neovim/releases/download/v0.12.1/nvim-win64.msi
         allow-redirect: true
-        sha256: 7094a07167648628e47249a16d9d6db922e5aa1255ac4322a2e4900d233372dd
+        sha256: 8b71160072e33136bcc78fbcd109dd5b1c6b0a89857b790c07e5cc2eb98929cc
 
-  - name: Visual Studio Code v1.102.1 [Rolling]
+  - name: Notepad++ v8.9.3
+    category: Editors
+    packages:
+      - url: https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.9.3/npp.8.9.3.Installer.x64.exe
+        allow-redirect: true
+        sha256: 8db87a458551371e911bea5243840c783b5e7d41b7f867a2a6f74971881fb1e4
+
+  - name: Visual Studio Code v1.117.0 [Rolling]
     category: Editors
     packages:
       - url: https://code.visualstudio.com/sha/download?build=stable&os=win32-x64
-        curl-options: --output 'VSCodeSetup-x64-1.102.1.exe'
+        curl-options: --output 'VSCodeSetup-x64-1.117.0.exe'
         allow-redirect: true
-        sha256: b2084320597e5311bf6fbc23598227009af874c7ad55fbd0f1ab2f22a45b0144
+        sha256: afe07724a9cd206edfdd8cdb7a47d84a06907648f81fcf76b89e914bf88a4aec

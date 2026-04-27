@@ -29,14 +29,14 @@ software:
 
 
   # Drivers and Utilities
-  - name: Logitech G HUB v2025.5.730277 [Rolling]
+  - name: Logitech G HUB v2026.2.861820 [Rolling]
     category: Hardware|Logitech Keyboards and Mice
     packages:
       - url: https://download01.logi.com/web/ftp/pub/techsupport/gaming/lghub_installer.exe
-        sha256: cc550dff570e0b7a8fc36e71466709cf57b65ac289b9ad92377fb0e5e617ff3e
+        sha256: d13bf16fe50d6cae4697482ab40a89a943903887e915542360f6329395704911
 
-  - name: Logitech Options+ v1.92.731496 [Rolling]
+  - name: Logitech Options+ v2.2.872704 [Rolling]
     category: Hardware|Logitech Keyboards and Mice
     packages:
       - url: https://download01.logi.com/web/ftp/pub/techsupport/optionsplus/logioptionsplus_installer.exe
-        sha256: ced5fe8f9cae1df4a49b4a15301ec047accd7763ecafa8265ca7e5035fd34dea
+        sha256: 0a0931db42fa50aad7cd7e262d4438785d30f6580b59c91df7d98e75774162f2

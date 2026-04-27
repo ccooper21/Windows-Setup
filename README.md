@@ -1,21 +1,94 @@
-# Windows 11 Setup
+Windows 11 Setup
 
-My notes and scripts to prepare for a clean Windows 11 installation, along with my notes to perform the installation and
-configure the resulting environment.
+My notes and scripts to prepare for and perform a clean Windows 11 installation.
 
 ## Preparing for Installation
 
-### Gathering the Software
+### Downloading the Windows installation media
 
-I like to gather a point in time snapshot of the software that I may want to install in the Windows environment.  This
-includes drivers for the various hardware devices in my arsenal, and software including general utilities, productivity
-tools, special interest applications, etc.  While I would recommend any of this software to others, my selections are
-based on my personal interests, such as software development and cybersecurity, and software with which I have gained
-experience over my career.  You may have different software preferences based on your interests and experience.  The
-software I will install in a given environment will depend on the environment's purpose, especially since some of the
-software may be for interests that I am not actively pursuing.
+The Windows 11 installation media can be downloaded as an ISO file using the (Fido)[https://github.com/pbatard/Fido]
+PowerShell script, included as a `git` submodule in the `Tools/Fido` folder of this project.
 
-I catalog the software in YAML files that can be found in the `Software Library\Definitions` folder.  Here is an
+Since Fido is implemented as a PowerShell script, it must be run in Windows or in PowerShell for Linux.  When running
+in PowerShell for Linux, the script will be unable to perform the download of the ISO file as this capability relies
+on Windows native functionality.  However, Fido can return the ISO file's URL, which subsequently can be downloaded
+using `curl`.
+
+Fido has checks that prevent its operation in PowerShell for Linux, which hence will need to be patched.  The `git diff`
+for the patch is as follows:
+
+```text
+ccooper@penguin:/mnt/chromeos/removable/Windows Setup/Tools/Fido$ git diff
+diff --git a/Fido.ps1 b/Fido.ps1
+index 7b8f7e6..cf7cecb 100644
+--- a/Fido.ps1
++++ b/Fido.ps1
+@@ -775,12 +775,6 @@ if ($Cmd) {
+        $winLanguageName = $null
+        $winLink = $null
+
+-       # Windows 7 and non Windows platforms are too much of a liability
+-       if ($winver -le 6.1) {
+-               Error(Get-Translation("This feature is not available on this platform."))
+-               exit 403
+-       }
+-
+        $i = 0
+        $Selected = ""
+        if ($Win -eq "List") {
+@@ -948,12 +942,6 @@ $WindowsVersionTitle.Text = Get-Translation("Version")
+ $Continue.Content = Get-Translation("Continue")
+ $Back.Content = Get-Translation("Close")
+
+-# Windows 7 and non Windows platforms are too much of a liability
+-if ($winver -le 6.1) {
+-       Error(Get-Translation("This feature is not available on this platform."))
+-       exit 403
+-}
+-
+ # Populate the Windows versions
+ $i = 0
+ $versions = @()
+ccooper@penguin:/mnt/chromeos/removable/Windows Setup/Tools/Fido$
+```
+
+Here is an example showing how to run the patched script in PowerShell for Linux to get the ISO file download URL for
+the latest release of Windows 11, and then to download it using `curl`:
+
+```text
+PS /mnt/chromeos/removable/Windows Setup/ISO Images> ../Tools/Fido/Fido.ps1 -GetUrl -Win 11 -Rel Latest -Ed Pro -Lang English -PlatformArch x64
+https://software.download.prss.microsoft.com/dbazure/Win11_24H2_English_x64.iso?t=7846c51c-1534-4c45-a181-b17869fb881c&P1=1753676554&P2=601&P3=2&P4=Wx6cxYyMxnPzN%2bKCM2jLo5raaYT1xlBmI%2f456sKGzWLWfT2F%2b%2bY%2bhqfWxnPJHHsEKCMvhVj16OmH2D9UistWnNhVlxMuxwBhdGhNrHVzy%2frzoLB43AmqTi2vxqWpNiKbkFm4haSSGOJvGnhiqRyiyJheA0cTWGEio%2bJ8TufXTsJLygFEMCVCT8nA2cGtt8bOhCQqOVy5qeNp0iXm7via%2bJzLyJxiLjHZ%2bdgvSAfdXOMHKxinezHNq%2f%2bwzc3AYoEBjSlmhLt9qXOmvCGdqOlZcTK2kaXoUZV7FpqmPgc%2bS31DyvfDtG%2b2xT1%2bePUUool825T6ZpT9I%2bQfucQPxds7%2fg%3d%3d
+PS /mnt/chromeos/removable/Windows Setup/ISO Images> curl --location --remote-name --remote-time "https://software.download.prss.microsoft.com/dbazure/Win11_24H2_English_x64.iso?t=7846c51c-1534-4c45-a181-b17869fb881c&P1=1753676554&P2=601&P3=2&P4=Wx6cxYyMxnPzN%2bKCM2jLo5raaYT1xlBmI%2f456sKGzWLWfT2F%2b%2bY%2bhqfWxnPJHHsEKCMvhVj16OmH2D9UistWnNhVlxMuxwBhdGhNrHVzy%2frzoLB43AmqTi2vxqWpNiKbkFm4haSSGOJvGnhiqRyiyJheA0cTWGEio%2bJ8TufXTsJLygFEMCVCT8nA2cGtt8bOhCQqOVy5qeNp0iXm7via%2bJzLyJxiLjHZ%2bdgvSAfdXOMHKxinezHNq%2f%2bwzc3AYoEBjSlmhLt9qXOmvCGdqOlZcTK2kaXoUZV7FpqmPgc%2bS31DyvfDtG%2b2xT1%2bePUUool825T6ZpT9I%2bQfucQPxds7%2fg%3d%3d"
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 5549M  100 5549M    0     0  29.6M      0  0:03:07  0:03:07 --:--:-- 20.5M
+PS /mnt/chromeos/removable/Windows Setup/ISO Images>
+```
+
+For convenience, wrapper PowerShell scripts that can provide download URLs fir the latest Windows 10 or Windows 11
+ release are located in the `ISO Images` folder.  These are:
+
+```text
+Download Windows 10 ISO (Latest; x32).ps1
+Download Windows 10 ISO (Latest; x64).ps1
+Download Windows 11 ISO (Latest).ps1
+```
+
+#### Preparing the installation media
+
+The downloaded ISO file can be turned into a bootable USB flash drive using (Rufus)[https://github.com/pbatard/Rufus].
+
+### Gathering software
+
+I gather a point in time snapshot of the software that I may want to install in the Windows environment.  This includes
+drivers for the various hardware devices in my arsenal, and software including utilities, productivity tools, special
+interest applications, etc.  While I recommend any of this software to others, my selections are based on my personal
+interests, such as software development and cybersecurity, and software with which I have gained experience over my
+career.  You may have different software preferences based on your interests and experiences.  The software I install in
+a given environment depends on the environment's purpose, especially since some of the software may be for interests
+that I am not actively pursuing.
+
+I catalog the software in YAML files that can be found in the `Software Library/Definitions` folder.  Here is an
 example:
 
 ```yaml
@@ -32,12 +105,12 @@ software:
 
 #### fetch.sh
 
-I wrote the `fetch.sh` script to download the software referenced in a YAML definition file, calculate the SHA256 hash
-for each file, display a warning if the hash has changed, and update the hash for the file in the YAML file accordingly.
+The `fetch.sh` script will download the software referenced in a YAML definition file, calculate the SHA256 hash for
+each file, display a warning if the hash has changed, and update the hash for the file in the YAML file accordingly.
 
 As an example, downloading VLC Media Player, using `fetch.sh` and the YAML definition file shown above, looks like this:
 
-```bash
+```text
 ccooper@penguin:/mnt/chromeos/removable/Windows Setup/Software Library$ ../Tools/Fetch/fetch.sh Definitions/Base\ -\ Media\ Players.yaml Downloads/
 INFO: Fetching package files for "VLC v3.0.21"...
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
@@ -51,7 +124,7 @@ ccooper@penguin:/mnt/chromeos/removable/Windows Setup/Software Library$
 
 If the SHA256 hash for VLC had changed, it would like look like this:
 
-```bash
+```text
 ccooper@penguin:/mnt/chromeos/removable/Windows Setup/Software Library$ ../Tools/Fetch/fetch.sh Definitions/Base\ -\ Media\ Players.yaml Downloads/
 INFO: Fetching package files for "VLC v3.0.21"...
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
@@ -79,7 +152,7 @@ WARNING: The SHA256 hash for this package file has changed.  Is it a new release
 ccooper@penguin:/mnt/chromeos/removable/Windows Setup/Software Library$
 ```
 
-The last part in the `<DIFF>` abd `<PATCH>` tags is debugging information that can be ignored, but I use it to keep an
+The last part in the `<DIFF/>` and `<PATCH/>` tags is debugging information that can be ignored, but I use it to keep an
 eye on things.  (Patching a SHA256 hash in the YAML file while preserving comments, whitespace, etc. is complicated.)
 
 #### Reasons for hash mismatches
@@ -94,7 +167,7 @@ downloaded.
 3.  The software uses a rolling release, where the most recent release is always downloaded from the same URL, and a new
 release has been made.
 
-4.  The software does not have a rolling release, but the maintainer made a new release without incrementing the version
+4.  The software does not use a rolling release, but the maintainer made a new release without incrementing the version
 number (i.e., the maintainer did not update the file name or URL).
 
 5.  The software vendor has a misconfiguration where inconsistent files are returned for the same URL.  For example, the
@@ -144,8 +217,8 @@ software:
 ##### allow-redirect
 
 Allows redirects to be followed when attempting the download.  By default, redirects are disallowed.  Redirects are not
-atypical, but if a download was did not require a redirect in the past and one is needed now, it could be an indication
-of supply chain tampering.
+atypical, but if a download did not require a redirect in the past and one is needed now, it could be an indication of
+supply chain tampering.
 
 ```yaml
 ---
@@ -187,7 +260,7 @@ curl-options: --output 'Firefox Setup 140.0esr.exe'
 
 ```yaml
 # Override the output file name derived by `curl` because the derived name contains URL encoded characters (e.g.,
-# "Graphics+Card+Series_multiQIG.pdf" that will not decoded by `curl`.
+# `Graphics+Card+Series_multiQIG.pdf`) that `curl` does not decode.
 curl-options: --output 'Graphics Card Series_multiQIG.pdf'
 ```
 
@@ -207,7 +280,7 @@ Debian-based Linux container on my Chromebook.
 2.  It isn't too important to monitor the `fetch.sh` script output for SHA256 hash changes because the differences can
 be viewed afterwards using the `git diff` command.  For example:
 
-```bash
+```text
 ccooper@penguin:/mnt/chromeos/removable/Windows Setup/Software Library$ git diff
 diff --git a/Software Library/Definitions/Base - Media Players.yaml b/Software Library/Definitions/Base - Media Players.yaml
 index f9c0004..fc185ec 100644
@@ -233,10 +306,10 @@ fetch-hardware.sh
 fetch-special.sh
 ```
 
-4.  There is a known issue that when there are lines longer than around 80 characters in a YAML definition file,
-patching a SHA256 hash will fail and cause preceeding long lines to be truncated.  However, rerunning the `fetch.sh`
-script will eventually allow the SHA256 hash patch to be applied since the preceeding long lines will have been
-already truncted.  Unfortuntely, if this occurs it is necessary to manually clean up the mess.
+4. Patching a SHA256 hash will fail and cause preceeding long lines to be truncated in a YAML definition file with any
+lines longer than about 80 characters.  However, rerunning the `fetch.sh` script multiple times will eventually allow
+the SHA256 hash patch to be applied since all preceeding long lines will have been truncted.  Unfortuntely, if this
+occurs manual clean up is necessary.
 
 As an example, running the `fetch.sh` script three times on this YAML definition file:
 
@@ -262,7 +335,7 @@ software:
 
 results in this `git diff`:
 
-```bash
+```text
 ccooper@penguin:/mnt/chromeos/removable/Windows Setup/Software Library$ git diff
 diff --git a/Software Library/Definitions/Hardware - ASRock B550 Phantom Gaming ITXax Desktop.yaml b/Software Library/Definitions/Hardware - ASRock B550 Phantom Gaming ITXax Desktop.yaml
 index ebb353a..73b6d48 100644
@@ -291,21 +364,22 @@ index ebb353a..73b6d48 100644
 ccooper@penguin:/mnt/chromeos/removable/Windows Setup/Software Library$
 ```
 
-Notice that the two `name` attributes have been unexpectedly truncated, but that the final `sha256` attribute has been
-correctly updated.  At this point, the changes to the `name` attributes need to be manually undone.
+Notice that the two `name` attributes have been truncated, but that the final `sha256` attribute has been correctly
+updated.  At this point, the changes to the `name` attributes need to be manually reverted.
 
-This issue is due to the pretty printing functional in `yq`, the tool used for working with the YAML files,
+This issue is due to the pretty printing functionality in `yq`, the tool used for working with the YAML files,
 automatically wrapping long lines.  Unfortunately, there is no documented mechanism to override this line wrapping
 behavior.
 
-5.  One other anomally of which to be aware is that as of `curl` v7.88.1, there is a defect when the `--output-dir`,
-`--remote-header-name`, `--remote-name`, and `--remote-time` options are used together, in that `curl` cannot
-set the modification date for the downloaded file.  This behavior is shown as follows.  The workaround is to specify the
-filename using the `--output` option instead of using the `--remote-header-name` and `--remote-name` options.
+5.  When using `curl` v7.88.1 (and likely other versions) with the `--output-dir`, `--remote-header-name`,
+`--remote-name`, and `--remote-time` options, `curl` fails to set the modification date for the downloaded file.  The
+workaround is to explcitly specify the filename using the `--output` option instead of using the `--remote-header-name`
+and `--remote-name` options.
 
-```bash
-ccooper@penguin:/mnt/chromeos/removable/Windows Setup/Software Library/Definitions$ curl --location --output-dir out --
-remote-header-name --remote-name --remote-time "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64"
+This anomaly is shown as follows:
+
+```text
+ccooper@penguin:/mnt/chromeos/removable/Windows Setup/Software Library/Definitions$ curl --location --output-dir out --remote-header-name --remote-name --remote-time "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64"
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
 100   157  100   157    0     0    300      0 --:--:-- --:--:-- --:--:--   300

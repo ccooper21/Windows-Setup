@@ -19,58 +19,59 @@ software:
 
 
   # ASRock B550 Phantom Gaming ITXax Motherboard - Firmware
-  - name: ASRock B550 Phantom Gaming ITXax Motherboard - UEFI BIOS v3.40
+  - name: ASRock B550 Phantom Gaming ITXax Motherboard - UEFI BIOS v3.90
     category: Hardware|ASRock B550 Phantom Gaming ITXax Desktop
     packages:
-      - url: https://download.asrock.com/BIOS/AM4/B550+Phantom+Gaming-ITXax(3.40)ROM.zip
-        curl-options: --output 'B550 Phantom Gaming-ITXax(3.40)ROM.zip'
-        sha256: 7d8bc939da5a5d93c7d41de25e5038519a4d8b1485fab8112ed9818ad58e545c
+      - url: https://download.asrock.com/BIOS/AM4/B550+Phantom+Gaming-ITXax(3.90)ROM.zip
+        curl-options: --output 'B550 Phantom Gaming-ITXax(3.90)ROM.zip'
+        sha256: 0fa25a82e02a65369b89560bf75c2204a44715ac9aaf4fb3ce533000dd499c2c
 
 
 
   # ASRock B550 Phantom Gaming ITXax Motherboard - Drivers and Utilities
-  - name: AMD Chipset Drivers v7.06.02.123
+  - name: AMD Chipset Drivers v8.02.18.557
     category: Hardware|ASRock B550 Phantom Gaming ITXax Desktop
     packages:
-      - url: https://drivers.amd.com/drivers/amd_chipset_software_7.06.02.123.exe
+      - url: https://drivers.amd.com/drivers/amd_chipset_software_8.02.18.557.exe
         additional-curl-options: '--header ''Referer: https://www.amd.com/'''
-        sha256: 3753b0e41ead2b1c3a94f57e08521119163276d9f3b7f769ae664beaac095a70
+        sha256: 7fbf24e6d890b2339ad0c51a12029064d9e1cef51426ffff1265c9927eebfc62
 
-  - name: AMD Ryzen Master v2.14.2.3341 [Rolling]
+  - name: AMD Ryzen Master v3.0.2.5029
     category: Hardware|ASRock B550 Phantom Gaming ITXax Desktop
     packages:
-      - url: https://download.amd.com/Desktop/amd_ryzen_master.exe
-        sha256: a9f05f8734b5b5067b9a3e9682bc28e8afe0065ef58efc3aea8cd4c2947feec0
+      - url: https://drivers.amd.com/drivers/amd_ryzen_master_3_0_2.exe
+        additional-curl-options: '--header ''Referer: https://www.amd.com/'''
+        sha256: a62ae0b8aa786e068538060635c3a8be70fe4e89700d089fb2dfb91344c24554
 
-  - name: ASRock Motherboard Utility v4.1.53
+  - name: ASRock Motherboard Utility v4.1.87
     category: Hardware|ASRock B550 Phantom Gaming ITXax Desktop
     packages:
-      - url: https://download.asrock.com/Utility/MotherboardUtility/MotherboardUtility(v4.1.53).zip
-        sha256: 5215faf4702f908f2584c58e2f6555692a47cf7d56c208f01a49b2d41eef64a1
+      - url: https://download.asrock.com/Utility/MotherboardUtility/MotherboardUtility(v4.1.87).zip
+        sha256: 7e89e2f5fa4182059dd04d7cccb8a31d91ecdf040c1c9825f39baf2d4bdefe3b
 
-  - name: ASRock Nahimic3 Audio v1.10.2
+  - name: ASRock Nahimic3 Audio v1.10.7
     category: Hardware|ASRock B550 Phantom Gaming ITXax Desktop
     packages:
-      - url: https://download.asrock.com/Utility/Others/Nahimic(v1.10.2_APO4).zip
-        sha256: aecf1d5f8e3eb91f712507cbe30f23a6e1ddfe5de33c314def5e6d15f666ad7c
+      - url: https://download.asrock.com/Utility/Others/Nahimic(v1.10.7_APO4).zip
+        sha256: 368860055d54fb9fb968491488b06f71feb349a644d59daf28236c78213250d3
 
-  - name: ASRock Polychrome RGB v2.0.201
+  - name: ASRock Polychrome RGB v2.0.218
     category: Hardware|ASRock B550 Phantom Gaming ITXax Desktop
     packages:
-      - url: https://download.asrock.com/Utility/RGB/PolychromeRGB(v2.0.201).zip
-        sha256: 3ff5827a7f3ff39625a7c763a363004cfcf8eb2a0775a189f8954e987de4239f
+      - url: https://download.asrock.com/Utility/RGB/PolychromeRGB(v2.0.218).zip
+        sha256: b60762fb8a1630655ca53665136f0104887832f8564163f54317f752ce27a0dd
 
-  - name: ASRock Polychrome Sync v1.0.46
+  - name: ASRock Polychrome Sync v1.0.51
     category: Hardware|ASRock B550 Phantom Gaming ITXax Desktop
     packages:
-      - url: https://download.asrock.com/Utility/RGB/PolychromeSYNC(v1.0.46).zip
-        sha256: 9606783e6a231f7fafd4f5418680235281266c5ab0955286f379a316548b8274
+      - url: https://download.asrock.com/Utility/RGB/PolychromeSYNC(v1.0.51).zip
+        sha256: 04b47de075e095483e07858c35dfd872cb060b875b92064e91af8dbf1b9439a7
 
-  - name: ASRock Realtek Audio Drivers v6.0.9703.1
+  - name: ASRock Realtek Audio Drivers v6.0.9879.1
     category: Hardware|ASRock B550 Phantom Gaming ITXax Desktop
     packages:
-      - url: https://download.asrock.com/Drivers/All/Audio/Realtek_Audio(v9703.1_UAD_WHQL).zip
-        sha256: b3e1f7eae49cc8544a2848024d883c01ba22a887b77959efdfda9871d93c04b0
+      - url: https://download.asrock.com/Drivers/All/Audio/Realtek_Audio(v9879.1_UAD_WHQL).zip
+        sha256: 8310b84dcab06729cdb53dff689f3c3b9a8ebd95edc4dd5b8744a3bc4a340f0c
 
   - name: ASRock Restart to UEFI v1.0.15
     category: Hardware|ASRock B550 Phantom Gaming ITXax Desktop
@@ -78,45 +79,35 @@ software:
       - url: https://download.asrock.com/Utility/Others/RestartToUEFI(v1.0.15).zip
         sha256: 5612501e10e52109eb3689865dc4013519e01973da96f0c6fe6a6972d0c690ee
 
-  - name: Intel Bluetooth Drivers v23.140.0
+  - name: Intel Bluetooth Drivers v24.30.1
     category: Hardware|ASRock B550 Phantom Gaming ITXax Desktop
     packages:
-      - url: https://downloadmirror.intel.com/856701/BT-23.140.0-64UWD-Win10-Win11.exe
-        sha256: 186a1db1e183eec101d41765ba192c6602ef07562511c0cb1b88963e0ce5bd5f
-      - url: https://downloadmirror.intel.com/856701/ReleaseNotes_BT_23.140.0.pdf
-        sha256: 2f4106f109394bfa9cb4053da15946b7fe4da599bbc30f1438d87289a5587db5
+      - url: https://downloadmirror.intel.com/915506/BT-24.30.1-64UWD-Win10-Win11.exe
+        sha256: 39b13d8853e004d3a3251244c72b008329516c3e0ac9b813e9563117f61de7f1
+      - url: https://downloadmirror.intel.com/915506/ReleaseNotes_BT_24.30.1.1.pdf
+        sha256: 3d415df8a4ed6c1ad4430258657fd4ef15d9e6727357f07226114e21e7bdb276
 
-  - name: Intel Wired Ethernet Drivers v30.2
+  - name: Intel Wired Ethernet Drivers v31.1
     category: Hardware|ASRock B550 Phantom Gaming ITXax Desktop
     packages:
-      - url: https://downloadmirror.intel.com/860229/Wired_driver_30.2_x64.zip
-        sha256: 0e17f92b4c1c96745877a27e91848b336e50012f2d0dbd2cf89a32b2edeb8e02
-      - url: https://downloadmirror.intel.com/860229/Wired_PROSet_30.2_x64.zip
-        sha256: 42de215e28ec042404445de72103213161876fbacd864406e1e104ce60c254c0
-      - url: https://downloadmirror.intel.com/860229/Release_Notes.pdf
-        sha256: ea5db5fd9fab7cfa9f1ee8e334d2ebf68a983c4b568604bf84f414f9a8964716
-      - url: https://downloadmirror.intel.com/860229/readme.txt
-        sha256: 466a1d6d4d3f9c2cfb84cfa37d859c60e18fad5336ce4f57e96c037633a73c8b
+      - url: https://downloadmirror.intel.com/916191/Wired_driver_31.1_x64.zip
+        sha256: c91c0e373656f62634ae561475cc498175649e95f0f02b2e43778dae318b3b5c
+      - url: https://downloadmirror.intel.com/916191/readme.txt
+        sha256: 8f8a5a50e806d5f5052e0246fdf9049d076a3e2835bc25357bc39fa0d7282227
 
-  - name: Intel Wireless Ethernet Drivers v23.140.0
+  - name: Intel Wireless Ethernet Drivers v24.30.1
     category: Hardware|ASRock B550 Phantom Gaming ITXax Desktop
     packages:
-      - url: https://downloadmirror.intel.com/856917/WiFi-23.140.0-Driver64-Win10-Win11.exe
-        sha256: 7f2cd58b572a695b1f8039877dd20a7b768a418bc5294e86093cbcf586f12e9c
-      - url: https://downloadmirror.intel.com/856917/ReleaseNotes_WiFi_23.140.0.pdf
-        sha256: 2d34af2b760329a45821544690998aabaf029eb96da7071ee57b7db24153795d
+      - url: https://downloadmirror.intel.com/915842/WiFi-24.30.1-Driver64-Win10-Win11.exe
+        sha256: c348abac9e4233049d129c26c3d80adb162eb6fb08b5e26027a74d5af088597a
+      - url: https://downloadmirror.intel.com/915842/ReleaseNotes_WiFi_24.30.1.pdf
+        sha256: 59bfd37d70fe8a97993aeca047d15034944bd76782b3e5f3fc3dc75048921e26
 
-  - name: Realtek Audio Drivers v6.0.9826.1
+  - name: Realtek Audio Drivers v6.0.9954.1
     category: Hardware|ASRock B550 Phantom Gaming ITXax Desktop
     packages:
-      - url: https://catalog.s.download.windowsupdate.com/c/msdownload/update/driver/drvs/2025/05/a5986431-abfe-43d1-b4ea-c590293aeef6_7220e56e47d2b5c077d3aaf0b323728672c9c8c9.cab
-        sha256: ea42612f30443a89ba56aa775ec7cc6a8f7e9578ff5cd7738f17ef4056380285
-
-#  - name: Realtek HD Audio Driver Package v2.83 (includes driver v6.0.1.8186)
-#    category: Hardware|ASRock B550 Phantom Gaming ITXax Desktop
-#    packages:
-#      - url: https://www.realtek.com/Download/List?cate_id=593
-#        sha256: cd3e98d17cacbc88e40152787063b4a391e67c2b389fdd79934ddacd1afb6345
+      - url: https://catalog.s.download.windowsupdate.com/d/msdownload/update/driver/drvs/2026/04/6920e6ed-8eaa-4fd8-b9fe-b3f991a05553_9bad3819444ae0699b6186cd468d6c9f961c037e.cab
+        sha256: 6c19d2e8d220c6ea2065d4cda8428a4822ed1603ea48d5b3d03d06537d04e3e0
 
 
 
@@ -131,18 +122,18 @@ software:
 
 
   # ASRock AMD Radeon RX 6800 XT Taichi Graphics Card - Drivers and Utilities
-  - name: AMD Radeon RDNA Graphics Adrenalin Edition Drivers v25.6.1
+  - name: AMD Radeon RDNA Graphics Adrenalin Edition Drivers v26.3.1
     category: Hardware|ASRock B550 Phantom Gaming ITXax Desktop
     packages:
-      - url: https://drivers.amd.com/drivers/whql-amd-software-adrenalin-edition-25.6.1-win10-win11-june5-rdna.exe
+      - url: https://drivers.amd.com/drivers/whql-amd-software-adrenalin-edition-26.3.1-win11-a.exe
         additional-curl-options: '--header ''Referer: https://www.amd.com/'''
-        sha256: b7d6bf26289877dc180754068b1692a25f6d2b212178e34a765e08fc72a33b88
+        sha256: dde5268830fb1eeea662d9a826bab24a93235d3dc5f1e555e3c2b63524f110a0
 
-  - name: ASRock AMD Radeon Graphics Tweak v2.0.66
+  - name: ASRock AMD Radeon Graphics Tweak v2.0.67
     category: Hardware|ASRock B550 Phantom Gaming ITXax Desktop
     packages:
-      - url: https://download.asrock.com/Utility/AMD/ASRockTweaker(v2.0.66).zip
-        sha256: ad14128e1a083cdc834b8df747b46e0dabaf380d6570e830ac2f5642fe81431f
+      - url: https://download.asrock.com/Utility/AMD/ASRockTweaker(v2.0.67).zip
+        sha256: 97ea71f39709fccd07d86394e0f67d3fff6bf488904a22fa5a430194763ce7f9
 
 
 

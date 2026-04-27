@@ -5,7 +5,9 @@ software:
   - name: Common Driver Model (CDM) Drivers v2.12.36.20
     category: Hardware|FTDI UART-to-USB Bridges
     packages:
-      - url: https://ftdichip.com/wp-content/uploads/2025/03/CDM2123620_Setup.zip
-        sha256: e412945bb98f96b3296a89a549e6b617129e5481e0be2fe5410247857c507796
+      - url: https://ftdichip.com/wp-content/uploads/2025/03/CDM-v2.12.36.20-WHQL-Certified.zip
+        sha256: e8ebf401d06994183694d78e5855ed5ab026bdfa8c3d4e4ccde09ec238a0eaf1
+      - url: https://ftdichip.com/wp-content/uploads/2025/03/CDM-2-12-36.20-Release-Info.zip
+        sha256: 12c37a07a13d3e19177b2c1bd04737921f471229433c209ac33edf638060c229
       - url: https://ftdichip.com/wp-content/uploads/2023/11/AN_396_FTDI_Drivers_Installation_Guide_for_Windows_10_11.pdf
         sha256: b9030c2d3de922163c8d890c3cc0a526416e32d91b67f9b3267ba53e7763f1b2

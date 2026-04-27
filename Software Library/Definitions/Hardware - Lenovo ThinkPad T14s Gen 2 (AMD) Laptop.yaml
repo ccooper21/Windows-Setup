@@ -29,179 +29,177 @@ software:
 
 
   # Lenovo ThinkPad T14s Gen 2 (AMD) Laptop - Firmware
-  - name: Lenovo ThinkPad T14s Gen 2 (AMD) Laptop - UEFI BIOS v1.33
+  - name: Lenovo ThinkPad T14s Gen 2 (AMD) Laptop - UEFI BIOS v1.36
     category: Hardware|Lenovo ThinkPad T14s Gen 2 (AMD) Laptop
     packages:
-      - url: https://download.lenovo.com/pccbbs/mobiles/r1nuj63w_v2.exe
-        sha256: 5ece5606d75dec5ae0060c89abd8118be93ca08a1268c69a41662ea41241d55e
-      - url: https://download.lenovo.com/pccbbs/mobiles/r1nuj63w_v2.html
-        sha256: 4fdaf55affb356b19f9f43c80bd17b5ad7a4aaf9bee814e6e26b9a64426703e0
-      - url: https://download.lenovo.com/pccbbs/mobiles/r1nuj63wd.iso
-        sha256: 8264d7c656da54d78997b78db634d394bff545d7743117377d282b7baf7ac3a9
-      - url: https://download.lenovo.com/pccbbs/mobiles/r1nuj63wd.html
-        sha256: dfb363cd50e7cb03c751815e6e5dcad4b1061772bf506d8484a90a07a20a36af
+      - url: https://download.lenovo.com/pccbbs/mobiles/r1nuj66w.exe
+        sha256: 040a7005607ba6d4ea8d0d0087ee1877dcb4368d0b0b42e9ef3408ceff03593d
+      - url: https://download.lenovo.com/pccbbs/mobiles/r1nuj66w.html
+        sha256: c1a6921bf1881e56ace23b73c5e1d303b9c069b3d019235f342c57a3de29a206
+      - url: https://download.lenovo.com/pccbbs/mobiles/r1nuj66wd.iso
+        sha256: 190fb4b5f70edc0e16fde724c324df6b87ff8d502bc484d4c56affa149933ca7
+      - url: https://download.lenovo.com/pccbbs/mobiles/r1nuj66wd.html
+        sha256: 4adad423a6fd52d09bc921e4390713b795486a0ed399739776dae69df33986f9
 
 
 
   # Lenovo ThinkPad T14s Gen 2 (AMD) Laptop - Drivers and Utilities
-  - name: AMD Chipset Drivers v7.06.02.123
+  - name: AMD Chipset Drivers v8.02.18.557
     category: Hardware|Lenovo ThinkPad T14s Gen 2 (AMD) Laptop
     packages:
-      - url: https://drivers.amd.com/drivers/amd_chipset_software_7.06.02.123.exe
+      - url: https://drivers.amd.com/drivers/amd_chipset_software_8.02.18.557.exe
         additional-curl-options: '--header ''Referer: https://www.amd.com/'''
-        sha256: 3753b0e41ead2b1c3a94f57e08521119163276d9f3b7f769ae664beaac095a70
+        sha256: 7fbf24e6d890b2339ad0c51a12029064d9e1cef51426ffff1265c9927eebfc62
 
-  - name: AMD Radeon RDNA Graphics Adrenalin Edition Drivers v25.6.1
+  - name: AMD Radeon RDNA Graphics Adrenalin Edition Drivers v26.3.1
     category: Hardware|Lenovo ThinkPad T14s Gen 2 (AMD) Laptop
     packages:
-      - url: https://drivers.amd.com/drivers/whql-amd-software-adrenalin-edition-25.6.1-win10-win11-june5-rdna.exe
+      - url: https://drivers.amd.com/drivers/whql-amd-software-adrenalin-edition-26.3.1-win11-a.exe
         additional-curl-options: '--header ''Referer: https://www.amd.com/'''
-        sha256: b7d6bf26289877dc180754068b1692a25f6d2b212178e34a765e08fc72a33b88
+        sha256: dde5268830fb1eeea662d9a826bab24a93235d3dc5f1e555e3c2b63524f110a0
 
-  - name: AMD Ryzen Master v2.14.2.3341 [Rolling]
+  - name: AMD Ryzen Master v3.0.2.5029
     category: Hardware|Lenovo ThinkPad T14s Gen 2 (AMD) Laptop
     packages:
-      - url: https://download.amd.com/Desktop/amd_ryzen_master.exe
-        sha256: a9f05f8734b5b5067b9a3e9682bc28e8afe0065ef58efc3aea8cd4c2947feec0
+      - url: https://drivers.amd.com/drivers/amd_ryzen_master_3_0_2.exe
+        additional-curl-options: '--header ''Referer: https://www.amd.com/'''
+        sha256: a62ae0b8aa786e068538060635c3a8be70fe4e89700d089fb2dfb91344c24554
 
-  - name: Lenovo Commercial Vantage v10.2501.15.0_v3
+  - name: Lenovo Commercial Vantage v20.2511.24.0
     category: Hardware|Lenovo ThinkPad T14s Gen 2 (AMD) Laptop
     packages:
-      - url: https://download.lenovo.com/pccbbs/thinkvantage_en/metroapps/Vantage/LenovoCommercialVantage_10.2501.15.0_v3.zip
-        sha256: 1ef936315a2ac7fc326e18709d1f5c314eec2670411ffafd5e27bd809ba61036
-      - url: https://download.lenovo.com/pccbbs/thinkvantage_en/metroapps/Vantage/Lenovo%20Commercial%20Vantage%20Release%20Notes%20%20v10.2501.15.0.pdf
-        curl-options: --output 'Lenovo Commercial Vantage Release Notes  v10.2501.15.0.pdf'
-        sha256: 6fc452d2548bf165d69604526a558d28b24ef67580ea5f171329b661e8f6f742
+      - url: https://download.lenovo.com/pccbbs/thinkvantage_en/metroapps/Vantage/LenovoCommercialVantage_20.2511.24.0.20251217075118.zip
+        sha256: eb611a4309333cd40d57b23aae2ac5892ff43f9e2ff1997415e8ead5dc62434c
+      - url: https://download.lenovo.com/pccbbs/thinkvantage_en/metroapps/Vantage/Lenovo_Commercial_Vantage_Release_Notes_20.2511.24.0.pdf
+        sha256: bfb0cc1081db4b25cf0fa96c75bbbfe6fa09d0002eb5981ff80765ff6b2c38a2
 
-  - name: Lenovo Diagnostics v5.21.0
+  - name: Lenovo Diagnostics v5.26.0
     category: Hardware|Lenovo ThinkPad T14s Gen 2 (AMD) Laptop
     packages:
-      - url: https://download.lenovo.com/pccbbs/thinkvantage_en/ldiag_5.21.0_windows_x64.exe
-        sha256: 112d26477a425a49be8f6c1a1bb9b52179f7fd07cb7e13667a9943fc4b29ecd3
-      - url: https://download.lenovo.com/pccbbs/thinkvantage_en/ldiag_5.21.0_windows_release_note.txt
-        sha256: 5c89be3b17b24875eec998ab6451d460fe9bf821bd4f81da51ae0ca088254234
-      - url: https://download.lenovo.com/pccbbs/thinkvantage_en/ldiag_5.21.0_windows_user_guide.pdf
-        sha256: 041db7f99d767a48ec6fe746089481b0e1a93ff6b5c2c9a5d4e6865fedad1d05
+      - url: https://download.lenovo.com/pccbbs/thinkvantage_en/ldiag_5.26.0_windows_x64.exe
+        sha256: 8eeaecf8ecfed9b2b38d1e4672240bccf9c54c5330ab0dc3a903467dc9b965c1
+      - url: https://download.lenovo.com/pccbbs/thinkvantage_en/ldiag_5.26.0_windows_release_notes.txt
+        sha256: b10d927afd6661eab83436e1fa10fbd5faceb99d1ba0b2e59c9a7a17eee1ad5e
+      - url: https://download.lenovo.com/pccbbs/thinkvantage_en/ldiag_5.26.0_windows_user_guide.pdf
+        sha256: 3eccec41d28549990bc5ec64010bc8ac86321a927dfb91a2cd12b2c3069deb84
 
-  - name: Lenovo Dolby Vision Provisioning Kit v2.0.0.2 [Rolling]
+  - name: Lenovo Dolby Vision Provisioning Kit r12 [Rolling]
     category: Hardware|Lenovo ThinkPad T14s Gen 2 (AMD) Laptop
     packages:
-      - url: https://download.lenovo.com/pccbbs/mobiles/lenovoprovisiondolbyvisionp11.exe
-        sha256: 5456f9ec5cd9970b3304858738b10c37c439c849e3414a1f3b852c641619886d
-      - url: https://download.lenovo.com/pccbbs/mobiles/lenovoprovisiondolbyvisionp11.html
-        sha256: a750d7b37b5d3b5128e96d49862e37f50776433803dc750a44685269f08ada3e
+      - url: https://download.lenovo.com/pccbbs/mobiles/lenovoprovisiondolbyvisionp12.msi
+        sha256: 5472ed52b9a0d8e717466c6d272a17c56e60605f2a4d5e37e25ca0d27707dab0
+      - url: https://download.lenovo.com/pccbbs/mobiles/lenovoprovisiondolbyvisionp12.html
+        sha256: 09e4f916ba00e512c9549270d10abc976bbb9658526e545d294a5f4180c91d88
 
-  - name: Lenovo ThinkPad Dynamic Power Reduction Driver v23.0.0.2
+  - name: Lenovo ThinkPad ELAN Touchpad Service v33.21.8.1
     category: Hardware|Lenovo ThinkPad T14s Gen 2 (AMD) Laptop
     packages:
-      - url: https://download.lenovo.com/pccbbs/mobiles/r1nps05w_v2.exe
-        sha256: db7a9ec6dfba228346536e46e6a3cef9214c3665a0d0ec680aaefca2d5722861
-      - url: https://download.lenovo.com/pccbbs/mobiles/r1nps05w.txt
-        sha256: 09d5ee52570124fa19541f8610d35a970664d9395e9b533fefc431c710c49bba
+      - url: https://download.lenovo.com/pccbbs/mobiles/n3gg408p.exe
+        sha256: 2b727280e573b75633483414819f1a9a1449fde6a4a2ed71b6580f6aac95ea65
+      - url: https://download.lenovo.com/pccbbs/mobiles/n3gg408p.txt
+        sha256: 40a7f99d0b53ad92717dc110ed11424466d36326f6dd991d4d04ea24fa4bb152
 
-  - name: Lenovo ThinkPad ELAN TrackPoint Drivers v31.21.25.1
+  - name: Lenovo ThinkPad ELAN TrackPoint Drivers v31.21.51.2
     category: Hardware|Lenovo ThinkPad T14s Gen 2 (AMD) Laptop
     packages:
-      - url: https://download.lenovo.com/pccbbs/mobiles/n35el07w.exe
-        sha256: fda177c72a0697df11b61392e7f506aa3a20212960b42d5c547b4bdf2bfe937b
-      - url: https://download.lenovo.com/pccbbs/mobiles/n35el07w.txt
-        sha256: dfc1ab6f9748fe2f380e942d8749c92abf32c19bfb93d953edd2a86f4b782f0b
+      - url: https://download.lenovo.com/pccbbs/mobiles/nzag207w.exe
+        sha256: 0a7113d93a99e09375269f74a2b99303aa4a7e73113da201af086e5e70de475f
+      - url: https://download.lenovo.com/pccbbs/mobiles/nzag207w.html
+        sha256: 4c91e3907e66f6b33e89e9f1f558caace1105001f2bf9eeac3ae3177cd8f2fb4
 
-  - name: Lenovo ThinkPad Goodix Fingerprint Reader Drivers v3.4.51.790
+  - name: Lenovo ThinkPad Goodix Fingerprint Reader Drivers v3.4.66.2020
     category: Hardware|Lenovo ThinkPad T14s Gen 2 (AMD) Laptop
     packages:
-      - url: https://download.lenovo.com/pccbbs/mobiles/r22fg11w.exe
-        sha256: f01ae93b349b199b988b0906e3e4bc3af9d6f16fe1e2825c91b4f7a298e0f9ac
-      - url: https://download.lenovo.com/pccbbs/mobiles/r22fg11w.html
-        sha256: 9478859876584cdc1781c4286fd9a5764f3a85d5125818550726d89ee25d47e3
+      - url: https://download.lenovo.com/pccbbs/mobiles/n3xgg07w.exe
+        sha256: dbf1c736c5e95988cd455b2872599afdf0768b689245a693a3b8e7a6456a6ccd
+      - url: https://download.lenovo.com/pccbbs/mobiles/n3xgg07w.html
+        sha256: 78f5159728090e948377bc3f365ef14b0e3cbbda8ac7a8711f80f769c3832acb
 
-  - name: Lenovo ThinkPad Hot Key Features Integration v10.13.2.1
+  - name: Lenovo ThinkPad Hot Key Features Integration v10.15.2511.2
     category: Hardware|Lenovo ThinkPad T14s Gen 2 (AMD) Laptop
     packages:
-      - url: https://download.lenovo.com/pccbbs/mobiles/r18vu65w.exe
-        sha256: f152646ec384a3698f34153b1af31e24f6974b1963da5a37552e2eb3d8b7e839
-      - url: https://download.lenovo.com/pccbbs/mobiles/r18vu65w.html
-        sha256: a9c9604001b309dd5f4fccae89dd82b4bce13f833bec99ebe2ef66b628f20add
+      - url: https://download.lenovo.com/pccbbs/mobiles/r18vu70w.exe
+        sha256: 2ca52c19bb64829642fb17f362a6ada4ab3d333cf39df5492f32004a5186f6f0
+      - url: https://download.lenovo.com/pccbbs/mobiles/r18vu70w_w10w11.html
+        sha256: 6b69379181c447539b4b27ee53063990e0deff1f10d8257142bbf1eef846faf2
 
-  - name: Lenovo ThinkPad Integrated Camera Drivers v10.0.22000.20261(Realtek) + v10.13.26100.2(Sonix) + v5.0.18.169(Sunplus)
+  - name: Lenovo ThinkPad Integrated Camera Drivers v10.0.22000.20386(Realtek) + v10.13.26100.8(Sonix) + v5.0.18.284(Sunplus)
     category: Hardware|Lenovo ThinkPad T14s Gen 2 (AMD) Laptop
     packages:
-      - url: https://download.lenovo.com/pccbbs/mobiles/n34cm26w.exe
-        sha256: 197502ddef51cbb6b00faa8c41a55d5769d19f36dbcf3630573d15fdd6358d69
-      - url: https://download.lenovo.com/pccbbs/mobiles/n34cm26w.html
-        sha256: 227112b432b496f655ccf8980f154093224ad9f28b2321757424980c8a3ab3b9
+      - url: https://download.lenovo.com/consumer/mobiles/nys3080f9wr7x9f0.exe
+        sha256: bbcf77eab8d334ca504c77b1efca3387d2680a32f4d63a99eb63bb36caf89a65
 
-  - name: Lenovo ThinkPad Intelligent Thermal Solution Driver v2.1.52.20
+  - name: Lenovo ThinkPad Intelligent Thermal Solution Driver v2.1.52.53
     category: Hardware|Lenovo ThinkPad T14s Gen 2 (AMD) Laptop
     packages:
-      - url: https://download.lenovo.com/pccbbs/mobiles/n4bdy58w.exe
-        sha256: a81d417d121483624c6e8ff651d55da8a35ccac99b9e2bc83997828e860c34c1
-      - url: https://download.lenovo.com/pccbbs/mobiles/n4bdy58w_w10w11.html
-        sha256: c088ac5354bd12171fd0c2f122e60b0491130012ee4052957b20748396bfba48
+      - url: https://download.lenovo.com/pccbbs/mobiles/n4bdy62w.exe
+        sha256: c30561fe7c7fda77280ad144ba656d9d40ae7422e3e446a31ba5d54fcd75d6bc
+      - url: https://download.lenovo.com/pccbbs/mobiles/n4bdy62w_w10w11.html
+        sha256: e09384ce53ed336558aafb55eb2c20923cd7d66de4ba011c2da332957629c516
 
-  - name: Lenovo ThinkPad Monitor Drivers v6.14.15.0
+  - name: Lenovo ThinkPad Monitor Drivers v6.14.27.0
     category: Hardware|Lenovo ThinkPad T14s Gen 2 (AMD) Laptop
     packages:
-      - url: https://download.lenovo.com/pccbbs/mobiles/r1mmi05w.exe
-        sha256: 6735375ec269802972a7a1392f17ef692864a448cd5df81f0ed60d1bc5820278
-      - url: https://download.lenovo.com/pccbbs/mobiles/r1mmi05w.txt
-        sha256: bad5262cebb677855ac25487d501d09627e4ac14c7f924e5d357f65b579a0595
+      - url: https://download.lenovo.com/pccbbs/mobiles/nyam105w.exe
+        sha256: 81b923540647e5636ad31504339990d8fab2d1337aa5beb61d89e89ee8f9e57a
+      - url: https://download.lenovo.com/pccbbs/mobiles/nyam105w_w10w11.html
+        sha256: 9a5d39a83bb377d3e568bfea7e1cbffcc38afb8e1b438abbf2d8a9e4bf4a10fc
 
-  - name: Lenovo ThinkPad Power Management Driver v1.69.32.0
+  - name: Lenovo ThinkPad Power Management Driver v1.69.132.0
     category: Hardware|Lenovo ThinkPad T14s Gen 2 (AMD) Laptop
     packages:
-      - url: https://download.lenovo.com/pccbbs/mobiles/n4bku07w.exe
-        sha256: e84bdb2e1aaa722864aae4c0f4929cdeee1abb184238b8f9b713e7e46bdfdfbd
-      - url: https://download.lenovo.com/pccbbs/mobiles/n4bku07w_w10w11.html
-        sha256: 456cfc6aae84e03b3ee486cd76f7bca8b99a79cc07035c005a728d88609891af
+      - url: https://download.lenovo.com/pccbbs/mobiles/n4bku11w.exe
+        sha256: 3404c35a123611d44eb87408c076ba1cf4c1982811138197a44b177561a85a46
+      - url: https://download.lenovo.com/pccbbs/mobiles/n4bku11w_w10w11.html
+        sha256: 2dbe95fc6723f4ea615624a35ee898d02af216168c76ef402a1a3913779a9c28
 
-  - name: Lenovo ThinkPad Power Manager v10.2.1.22
+  - name: Lenovo ThinkPad Power Manager v10.2.4.15
     category: Hardware|Lenovo ThinkPad T14s Gen 2 (AMD) Laptop
     packages:
-      - url: https://download.lenovo.com/pccbbs/mobiles/n1fupa4w.exe
-        sha256: 8173df08e3c159fee192f24bed80b5cd3eaeb49644078e9f212436eef404f891
-      - url: https://download.lenovo.com/pccbbs/mobiles/n1fupa4w_w10w11.html
-        sha256: 88a0152375fee8f44294fc15fcb589f99e1d425dcaf167658193bd710c38a855
+      - url: https://download.lenovo.com/pccbbs/mobiles/n1fupa7w.exe
+        sha256: 864a6508aafb046fc1f60382e6efa8589df66a0a5c93954a8a5b33f37f0c26ca
+      - url: https://download.lenovo.com/pccbbs/mobiles/n1fupa6w_w10w11.html
+        sha256: a81ee16e1bd6b5d7f456dde29edd45d17a4e5ccc190e7ca3962247624b89692c
 
-  - name: Lenovo ThinkPad Realtek Audio Drivers v6.0.9366.1
+  - name: Lenovo ThinkPad Realtek Audio Drivers v6.0.9894.1
     category: Hardware|Lenovo ThinkPad T14s Gen 2 (AMD) Laptop
     packages:
-      - url: https://download.lenovo.com/pccbbs/mobiles/r1mra06w.exe
-        sha256: e6bd6da964cf301a0c91ce42ef0436ce66435728377c22f12b85743a5e860ff0
-      - url: https://download.lenovo.com/pccbbs/mobiles/r1mra06w.html
-        sha256: a9ca9cb36362593d0e71d1996dd836d11feda8e15c3dccbc2c3cd00dfbad09f4
+      - url: https://download.lenovo.com/pccbbs/mobiles/n4iao13w.exe
+        sha256: 0d6e43aebcedf8d8530724ba01dcc20e0dba43a817f1cb1bf1fd4d15a95336ce
+      - url: https://download.lenovo.com/pccbbs/mobiles/n4iao13w.html
+        sha256: 399f837cbee874bda6a685b3b1e31305a86e13052e4f3621babae48270365837
 
-  - name: Lenovo ThinkPad Smart Standby Driver v4.3.11.0
+  - name: Lenovo ThinkPad Smart Standby Driver v4.3.13.0
     category: Hardware|Lenovo ThinkPad T14s Gen 2 (AMD) Laptop
     packages:
-      - url: https://download.lenovo.com/pccbbs/mobiles/n25by27w.exe
-        sha256: 283bf3304563c0b2fc1b74ae4404e2402916a9ed4b15d42fe8963cbac3068c4e
-      - url: https://download.lenovo.com/pccbbs/mobiles/n25by27w_w10w11.html
-        sha256: 8f45c21c070bf9953af6b0c36fe3ba9d0174108d5828997895f0125ff84c94ea
+      - url: https://download.lenovo.com/pccbbs/mobiles/n25by28w.exe
+        sha256: cbf44c974790e287a5ebfe04e96dbf7cb9673130394895fb622bc89563f5afba
+      - url: https://download.lenovo.com/pccbbs/mobiles/n25by28w_w10w11.html
+        sha256: e976169ac7824f44e4910294c1e74f7927c0066403e697b8da258ced9663b9f4
 
-  - name: Lenovo UEFI Diagnostics v04.39.000
+  - name: Lenovo UEFI Diagnostics v04.46.001
     category: Hardware|Lenovo ThinkPad T14s Gen 2 (AMD) Laptop
     packages:
-      - url: https://download.lenovo.com/pccbbs/thinkvantage_en/ldiag_v04.39.000_bootable_uefi_x64.zip
-        sha256: e948d42f37e25cfd00068e3d9f4487347cc3bbbc59c9f4d4b86a5f15277ee332
-      - url: https://download.lenovo.com/pccbbs/thinkvantage_en/ldiag_v04.39.000_bootable_uefi_releasenotes.txt
-        sha256: 86ab4e09a6a9aceeaff7067cc89ce7fea6d2c4f7b4a3bf85baf7cf07781abc95
-      - url: https://download.lenovo.com/pccbbs/thinkvantage_en/ldiag_v04.39.000_bootable_uefi_x64_ug.pdf
-        sha256: 41e52bb9e90fd40071369a3c0d8a96688a4980252c3306da084adb3a926dcce3
+      - url: https://download.lenovo.com/pccbbs/thinkvantage_en/ldiag_04.46.001_bootable_uefi_x64.zip
+        sha256: 1fb04dee3d3d2e78baef013ec8449c69a2d2e44fd0d94fabde896ebecbd834c2
+      - url: https://download.lenovo.com/pccbbs/thinkvantage_en/ldiag_04.46.001_bootable_uefi_releasenotes.txt
+        sha256: f8d4e3379b3016bed4c529abc5067c8678bb2f1e0073e58d02f88045c34689c0
+      - url: https://download.lenovo.com/pccbbs/thinkvantage_en/ldiag_04.46.001_bootable_uefi_x64_userguide.pdf
+        sha256: 1ea40d08d752781b471aac4b0549d27eaaf7c5030009ed6019e96e5b92347e59
 
-  - name: Realtek Audio Drivers v6.0.9826.1
+  - name: Realtek Audio Drivers v6.0.9954.1
     category: Hardware|Lenovo ThinkPad T14s Gen 2 (AMD) Laptop
     packages:
-      - url: https://catalog.s.download.windowsupdate.com/c/msdownload/update/driver/drvs/2025/05/a5986431-abfe-43d1-b4ea-c590293aeef6_7220e56e47d2b5c077d3aaf0b323728672c9c8c9.cab
-        sha256: ea42612f30443a89ba56aa775ec7cc6a8f7e9578ff5cd7738f17ef4056380285
+      - url: https://catalog.s.download.windowsupdate.com/d/msdownload/update/driver/drvs/2026/04/6920e6ed-8eaa-4fd8-b9fe-b3f991a05553_9bad3819444ae0699b6186cd468d6c9f961c037e.cab
+        sha256: 6c19d2e8d220c6ea2065d4cda8428a4822ed1603ea48d5b3d03d06537d04e3e0
 
 
 
   # Samsung 970 EVO Plus 2TB NVMe M.2 Solid State Drive (SSD) Drive - Drivers and Utilities
-  - name: Samsung Magician v8.3.1.820
+  - name: Samsung Magician v9.0.1.950
     category: Hardware|Lenovo ThinkPad T14s Gen 2 (AMD) Laptop
     packages:
-      - url: https://download.semiconductor.samsung.com/resources/software-resources/Samsung_Magician_Installer_Official_8.3.1.820.exe
-        sha256: f47f7bbce71ff81bd565e45a249d0eb643ba92a89c0cdc92c1543c47fba5b20e
-      - url: https://download.semiconductor.samsung.com/resources/software-resources/Samsung_Magician_8_3_0_Installation_Guide.pdf
-        sha256: cbe0f9ea877696e5af044429ae4fc7b586da97cc529980e39ff3d4e396243251
+      - url: https://download.semiconductor.samsung.com/resources/software-resources/Samsung_Magician_Installer_Official_9.0.1.950.exe
+        sha256: d46cf61aa5b5073138e9d063e91f1861776315a14dfca3ffd8724611c21588d8
+      - url: https://download.semiconductor.samsung.com/resources/software-resources/Samsung_Magician_9_0_0_Installation_Guide.pdf
+        sha256: 94a744035b4ddf244bc0b56fff2455d42b68f4a5ded0cfc350caaeb34521bc2e

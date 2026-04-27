@@ -13,8 +13,8 @@ software:
 
 
   # Drivers and Utilities
-  - name: SteelSeries Engine v90.0.0
+  - name: SteelSeries Engine v108.1.0
     category: Hardware|SteelSeries Mice
     packages:
-      - url: https://engine.steelseriescdn.com/SteelSeriesGG90.0.0Setup.exe
-        sha256: 1f64cb953853af4444be1b89e124983edfbb6cba08e49e8497b08a54bf25897a
+      - url: https://engine.steelseriescdn.com/SteelSeriesGG108.1.0Setup.exe
+        sha256: 71cae0d933e0a3e620ba1dfadabda57e7e2898087cebf1a2e8e6e4e38512ce52

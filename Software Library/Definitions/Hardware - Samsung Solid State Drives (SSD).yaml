@@ -2,10 +2,10 @@
 software:
 
   # Drivers and Utilities
-  - name: Samsung Magician v8.3.1.820
+  - name: Samsung Magician v9.0.1.950
     category: Hardware|Samsung Solid State Drives (SSD)
     packages:
-      - url: https://download.semiconductor.samsung.com/resources/software-resources/Samsung_Magician_Installer_Official_8.3.1.820.exe
-        sha256: f47f7bbce71ff81bd565e45a249d0eb643ba92a89c0cdc92c1543c47fba5b20e
-      - url: https://download.semiconductor.samsung.com/resources/software-resources/Samsung_Magician_8_3_0_Installation_Guide.pdf
-        sha256: cbe0f9ea877696e5af044429ae4fc7b586da97cc529980e39ff3d4e396243251
+      - url: https://download.semiconductor.samsung.com/resources/software-resources/Samsung_Magician_Installer_Official_9.0.1.950.exe
+        sha256: d46cf61aa5b5073138e9d063e91f1861776315a14dfca3ffd8724611c21588d8
+      - url: https://download.semiconductor.samsung.com/resources/software-resources/Samsung_Magician_9_0_0_Installation_Guide.pdf
+        sha256: 94a744035b4ddf244bc0b56fff2455d42b68f4a5ded0cfc350caaeb34521bc2e

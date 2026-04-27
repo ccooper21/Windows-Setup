@@ -9,16 +9,23 @@ software:
         additional-curl-options: '--header ''Referer: https://www.amd.com/'''
         sha256: 2743360b88ca42779140e2d1fca5d169a1f8b6173524570e4f0d7a5f73d924af
 
-  - name: AMD Radeon RX 500 Series Graphics Adrenalin Edition Drivers v25.5.1
+  - name: AMD Radeon RX 500 Series Graphics Adrenalin Edition Drivers v26.1.1
     category: Hardware|AMD Radeon Graphics
     packages:
-      - url: https://drivers.amd.com/drivers/whql-amd-software-adrenalin-edition-25.5.1-win10-win11-may8-vega-polaris.exe
+      - url: https://drivers.amd.com/drivers/whql-amd-software-adrenalin-edition-26.1.1-win11-jan-vega-polaris.exe
         additional-curl-options: '--header ''Referer: https://www.amd.com/'''
-        sha256: 5d083659c5f2b4ac11986524e48d4339c3214b614decb68633cf7553add17e0c
+        sha256: e9f195f112e83e0060334da298b349d7437e6ff1c69e156963236b70c0a4bd54
 
-  - name: AMD Radeon RX 6000 Series Graphics Adrenalin Edition Drivers v25.6.1
+  - name: AMD Radeon RX 6000 Series Graphics Adrenalin Edition Drivers v26.3.1
     category: Hardware|AMD Radeon Graphics
     packages:
-      - url: https://drivers.amd.com/drivers/whql-amd-software-adrenalin-edition-25.6.1-win10-win11-june5-rdna.exe
+      - url: https://drivers.amd.com/drivers/whql-amd-software-adrenalin-edition-26.3.1-win11-a.exe
         additional-curl-options: '--header ''Referer: https://www.amd.com/'''
-        sha256: b7d6bf26289877dc180754068b1692a25f6d2b212178e34a765e08fc72a33b88
+        sha256: dde5268830fb1eeea662d9a826bab24a93235d3dc5f1e555e3c2b63524f110a0
+
+  - name: AMD Radeon RX 9000 Series Graphics Adrenalin Edition Drivers v26.3.1
+    category: Hardware|AMD Radeon Graphics
+    packages:
+      - url: https://drivers.amd.com/drivers/whql-amd-software-adrenalin-edition-26.3.1-win11-b.exe
+        additional-curl-options: '--header ''Referer: https://www.amd.com/'''
+        sha256: 0d2cd60c6390a39cf7ad0a108c5bcc6108414c128cc33243c5a33767d928a7ce

@@ -1,14 +1,26 @@
 ---
 software:
 
+  - name: CUETools v2.2.6
+    category: Special|Audio CD Ripping
+    packages:
+      - url: https://github.com/gchudov/cuetools.net/releases/download/v2.2.6/CUETools_2.2.6.zip
+        allow-redirect: true
+        sha256: 103b209502935c911f2162a5babfb21550476413aee13d88187e39783a2a2e32
+      - url: https://github.com/gchudov/cuetools.net/releases/download/v2.2.5/ffmpeg_6.1_dlls_x64.zip
+        allow-redirect: true
+        sha256: c758db592ac329af6af6a380761cec6062ad3801598f19d3021d7215a94b3ba0
+      - url: https://www.rarewares.org/files/mp3/lame3.100.1-x64.zip
+        sha256: 9a9c815203316e5203847e93100c6acf0d5d7a5be7744c9018825ded037052e7
+
+  - name: dBpoweramp Reference r20260404 [Rolling; Trial]
+    category: Special|Audio CD Ripping
+    packages:
+      - url: https://www.dbpoweramp.com/install/dBRefMusic-Trial.exe
+        sha256: ad5b90800eced944c52ad07fba7fc0420b9874814a82642d052940cd627081c5
+
   - name: Exact Audio Copy v1.8
     category: Special|Audio CD Ripping
     packages:
       - url: https://www.exactaudiocopy.de/eac-1.8.exe
         sha256: 205530cfbfdff82343858f38b0e709e586051fb8900ecd513d7992a3c1ef031b
-
-  - name: dBpoweramp Reference r20250714 [Rolling; Trial]
-    category: Special|Audio CD Ripping
-    packages:
-      - url: https://www.dbpoweramp.com/install/dBRefMusic-Trial.exe
-        sha256: 1384421859d27a4d12b83b6cdb602645de53a93a45475ac905e7906938a2f7de

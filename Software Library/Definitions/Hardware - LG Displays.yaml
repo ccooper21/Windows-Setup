@@ -33,22 +33,22 @@ software:
         curl-options: --remote-header-name --remote-name
         sha256: fdb702b88c02147cb3f550a763a73cb87f08cddaca36493b413befa01cac2f4e
 
-  - name: LG Calibration Studio v7.2.4
+  - name: LG Calibration Studio v7.4.7
     category: Hardware|LG Displays
     packages:
-      - url: https://gscs-b2c.lge.com/downloadFile?fileId=qEQgwkpAbnGZ7aIVyyeXmA
+      - url: https://gscs-b2c.lge.com/downloadFile?fileId=FuqntxukVZVJ3lS5hp1dzA
         curl-options: --remote-header-name --remote-name
-        sha256: 87a268dd150628896e47e347086c3b2e66871da76a19641cefbb130e066ac76d
+        sha256: 9ee1584e1c6abaa234b889ed51c97d537d9e50e648d993b5532ab0cf23b6525c
       - url: https://gscs-b2c.lge.com/downloadFile?fileId=5rJS7W6FkM2gqdcZzM8Zg
         curl-options: --remote-header-name --remote-name
         sha256: 7fa8aae8aa21c0995c44699c47b681091425ee6f19d83e8c6dcb4dfed65b1143
 
-  - name: LG Dual Controller v2.85
+  - name: LG Dual Controller v2.89
     category: Hardware|LG Displays
     packages:
-      - url: https://gscs-b2c.lge.com/downloadFile?fileId=TA8w6eqPXMozwPo365Ew
+      - url: https://gscs-b2c.lge.com/downloadFile?fileId=cIy7cELP5BdJvXPGTKgtqw
         curl-options: --remote-header-name --remote-name
-        sha256: 517f781a98233ab27ad70fbfa320d4cf19678403f8aef8e9a159ecc79352226f
+        sha256: 4fc44234dfac9a7d555b246d82c75e7aefeb0d04d6b0f1910e424a651f9ed8ac
 
   - name: LG On Screen Control v9.43
     category: Hardware|LG Displays

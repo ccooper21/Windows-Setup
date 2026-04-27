@@ -1,9 +1,15 @@
 ---
 software:
 
-  - name: CrystalDiskMark v9.0.1
+  - name: CrystalDiskMark v9.0.2
     category: Benchmarks
     packages:
-      - url: https://master.dl.sourceforge.net/project/crystaldiskmark/9.0.1/CrystalDiskMark9_0_1Ads.exe
+      - url: https://downloads.sourceforge.net/project/crystaldiskmark/9.0.2/CrystalDiskMark9_0_2Ads.exe
         allow-redirect: true
-        sha256: 22492de0499d1ef05dc40784a726a7c1cf5e2f10377fcb94d43fd6297479b4f2
+        sha256: 88c5d86a70d0fe13ae87125e56a79322c4ba253962dafce37441b2ea34472684
+
+  - name: FurMark v2.10.2
+    category: Benchmarks
+    packages:
+      - url: https://geeks3d.com/downloads/2025/fm2/2_10_dbc69dd0a08da5ff09169a4fc759ddaa/FurMark_2.10.2_Win64_Setup.exe
+        sha256: 88c07e0c674676bb486d3d46d73605925983b3afa8f292a2d9707ad919a3ea9b

@@ -2,9 +2,9 @@
 software:
 
   # Drivers and Utilities
-  - name: Drivers v3.8
+  - name: Drivers v3.9
     category: Hardware|WCH CH34x UART-to-USB Bridges
     packages:
-      - url: https://www.wch.cn/download/file?id=65
+      - url: https://www.wch-ic.com/download/file?id=5
         curl-options: --remote-header-name --remote-name
-        sha256: a2bb1c04f2519788346ee08790ae2d3e3a49dde4f49997bf6e81d8301ccf5123
+        sha256: a7b08baaaf9b0e8548ffbab2a91fab8c75595f8d63a42a490fbf3fd1e747e21c

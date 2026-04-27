@@ -1,15 +1,15 @@
 ---
 software:
 
-  - name: Cyberduck v9.1.7.43306
+  - name: Cyberduck v9.4.1.44384
     category: File Transfer
     packages:
-      - url: https://update.cyberduck.io/windows/Cyberduck-Installer-9.1.7.43306.exe
+      - url: https://update.cyberduck.io/windows/Cyberduck-Installer-9.4.1.44384.exe
         allow-redirect: true
-        sha256: fc54c390fed8c235138ca3d24314dcfb9319c93ba27d379c3dd125a3c0affd1c
+        sha256: a80c8c3dfb0f411f2c6602a912e4cb1d49fd335e9bf851e85add9d1f1000b780
 
-  - name: FileZilla Client v3.69.2
+  - name: FileZilla Client v3.70.4
     category: File Transfer
     packages:
-      - url: https://download.filezilla-project.org/client/FileZilla_3.69.2_win64_sponsored2-setup.exe
-        sha256: 387f31b79319715dc11e3f269fe29a2791316d448b04fcb8538d7241eff8896e
+      - url: https://download.filezilla-project.org/client/FileZilla_3.70.4_win64_sponsored2-setup.exe
+        sha256: 3d3b6d6d55858f72b12cc4a55d8fec6950e56bdd0507b6bab2fc2b160dc055bd

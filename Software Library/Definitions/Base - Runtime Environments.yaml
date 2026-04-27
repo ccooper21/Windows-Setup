@@ -1,28 +1,28 @@
 ---
 software:
 
-  - name: Node.js v22.17.1 (LTS)
+  - name: Node.js v24.15.0 (LTS)
     category: Runtime Environments
     packages:
-      - url: https://nodejs.org/dist/v22.17.1/node-v22.17.1-x64.msi
-        sha256: 29bf63d4be9e9ba53d8974086cd9ef2403317e6c237d98d6e498205da4d48753
+      - url: https://nodejs.org/dist/v24.15.0/node-v24.15.0-x64.msi
+        sha256: feffb8e5cb5ac47f793666636d496ef3e975be82c84c4da5d20e6aa8fa4eb806
 
-  - name: Python v3.13.5
+  - name: Python v3.14.4
     category: Runtime Environments
     packages:
-      - url: https://www.python.org/ftp/python/3.13.5/python-3.13.5-amd64.exe
-        sha256: c1cb40978b28f696b111c36034a1bdeda17d25e35c74a08ef5e5ff405a63fc20
+      - url: https://www.python.org/ftp/python/3.14.4/python-3.14.4-amd64.exe
+        sha256: b571567bd11ea98fd7a2cf85791d2c8557a63b1e04e9d1dae665a275cac87f1b
 
-  - name: Temurin OpenJDK Java Development Kit v21.0.7+6 (LTS)
+  - name: Temurin OpenJDK Java Development Kit v25.0.2+10 (LTS)
     category: Runtime Environments
     packages:
-      - url: https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.7%2B6/OpenJDK21U-jdk_x64_windows_hotspot_21.0.7_6.msi
+      - url: https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.2%2B10/OpenJDK25U-jdk_x64_windows_hotspot_25.0.2_10.msi
         allow-redirect: true
-        sha256: 168e3c710448dbdd7e6fe2463b867339a72be11a7c8615d72d19fb26572d3619
+        sha256: c433b59ab42630634657ae273940183c2f95a115dd5bf6846a70dcd0a42b9c0d
 
-  - name: Temurin OpenJDK Java Runtime Environment v21.0.7+6 (LTS)
+  - name: Temurin OpenJDK Java Runtime Environment v25.0.2+10 (LTS)
     category: Runtime Environments
     packages:
-      - url: https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.7%2B6/OpenJDK21U-jre_x64_windows_hotspot_21.0.7_6.msi
+      - url: https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.2%2B10/OpenJDK25U-jre_x64_windows_hotspot_25.0.2_10.msi
         allow-redirect: true
-        sha256: 7c75fbd2c99649580b7869b756effa5b6b30e6808fae1ebc7eeb63921aafd096
+        sha256: 8344bfe9d2e161276f4956f6e8444dec444b631ca5d80c36657d9df4ba5643a2
